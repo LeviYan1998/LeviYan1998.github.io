@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="default">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="Levi Yan">
+
+
+
+    <meta name="description" content="纵然缓慢，驰而不息">
+
+
+
+<title>RPRule-202006 | Levi&#39;s Blog</title>
+
+
+
+    <link rel="icon" href="/favicon.ico">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/script.js"></script>
+    
+    <script src="/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 4.2.1"><link rel="alternate" href="/atom.xml" title="Levi's Blog" type="application/atom+xml">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/">Levi&#39;s Blog</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/category">Categories</a>
+                
+                    <a class="menu-item" href="/tag">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/">Levi&#39;s Blog</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/category">Categories</a>
+                
+                    <a class="menu-item" href="/tag">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">RPRule-202006</h1>
+            
+                <div class="post-meta">
+                    
+                        Author: <a itemprop="author" rel="author" href="/">Levi Yan</a>
+                    
+
+                    
+                        <span class="post-time">
+                        Date: <a href="#">June 4, 2020&nbsp;&nbsp;12:02:32</a>
+                        </span>
+                    
+                    
+                    
+                        <span class="post-time">
+                        Updated:<a href="#">June 10, 2020&nbsp;&nbsp;12:14:14</a>
+                        </span>
+                    
+                    
+                    
+                        <span class="post-category">
+                    Category:
+                            
+                                <a href="/categories/RPRules/">RPRules</a>
+                            
+                        </span>
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <h1 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h1><h2 id="总目标"><a href="#总目标" class="headerlink" title="总目标"></a>总目标</h2><ol>
+<li>可持续的不断进步</li>
+<li>达到能够考上的标准</li>
+<li>不要太难操作，时间过长（5min以内）</li>
+</ol>
+<a id="more"></a>
+
+<h2 id="本月目标"><a href="#本月目标" class="headerlink" title="本月目标"></a>本月目标</h2><h3 id="制定基础"><a href="#制定基础" class="headerlink" title="制定基础"></a>制定基础</h3><h4 id="目前阶段"><a href="#目前阶段" class="headerlink" title="目前阶段"></a>目前阶段</h4><p>数学</p>
+<ul>
+<li>高数</li>
+<li>线代</li>
+</ul>
+<p>英语</p>
+<ul>
+<li>单词</li>
+<li>词汇</li>
+</ul>
+<p>专业课</p>
+<ul>
+<li>数据结构与算法</li>
+</ul>
+<h4 id="其他重要事项"><a href="#其他重要事项" class="headerlink" title="其他重要事项"></a>其他重要事项</h4><ul>
+<li>考试<ul>
+<li>软件项目管理 ：2020-06-03  <strong>15：30-17：00</strong></li>
+</ul>
+</li>
+<li>实验<ul>
+<li>软件项目管理：2020-06-07</li>
+<li>实训：2020-06-10</li>
+</ul>
+</li>
+<li>论文<ul>
+<li>新技术</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">gantt</span><br><span class="line">title 其他重要事项</span><br><span class="line">dateFormat YYYY-MM-DD</span><br><span class="line"></span><br><span class="line">section 软件项目管理</span><br><span class="line">期末考试:done ,2020-06-01,2020-06-03  #15：30-17：00</span><br><span class="line">所有作业:active,2020-06-04,2020-06-07</span><br><span class="line"></span><br><span class="line">section 实训</span><br><span class="line">持续时间:active,2020-06-04,2020-06-10</span><br><span class="line"></span><br><span class="line">section 新技术</span><br><span class="line">论文:,2020-06-04,2020-06-20</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="目标-1"><a href="#目标-1" class="headerlink" title="目标"></a>目标</h3><p>数学</p>
+<ul>
+<li>总<ul>
+<li>在<strong>6月20日</strong>，完成<strong>高数</strong>一轮复习。</li>
+<li>在<strong>6月底</strong>，完成<strong>线代</strong>一轮复习。</li>
+</ul>
+</li>
+<li>分<ul>
+<li>每章需要经过 视频、做例题、1800、整理错题 阶段。</li>
+<li>每章的<strong>最后复习时间</strong>距<strong>当日</strong>不能超过15日。</li>
+<li>每日需要<strong>30m+</strong>的时间 复习/思考错题。</li>
+</ul>
+</li>
+</ul>
+<p>英语</p>
+<ul>
+<li>单词<ul>
+<li>形成词网</li>
+</ul>
+</li>
+<li>阅读<ul>
+<li>最好每日一篇</li>
+<li>每篇做完后：<ul>
+<li>选单词，背。</li>
+<li>分析<ul>
+<li>句型</li>
+<li>结构<ul>
+<li>句子</li>
+<li>段落</li>
+<li>文章</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>专业</p>
+<ul>
+<li>算法与数据结构<ul>
+<li>敲代码，练熟数据结构。</li>
+</ul>
+</li>
+</ul>
+<h1 id="奖惩"><a href="#奖惩" class="headerlink" title="奖惩"></a>奖惩</h1><h2 id="奖励选项"><a href="#奖励选项" class="headerlink" title="奖励选项"></a>奖励选项</h2><h3 id="时间类"><a href="#时间类" class="headerlink" title="时间类"></a>时间类</h3><ul>
+<li><input disabled="" type="checkbox"> 个人博客网站<ul>
+<li><input checked="" disabled="" type="checkbox"> 安装hexo，上传博客</li>
+<li><input disabled="" type="checkbox"> 项目：推荐（public）</li>
+<li><input checked="" disabled="" type="checkbox"> <strong>将RPRules的item剥离gitpage，整合到博客</strong></li>
+</ul>
+</li>
+<li><input checked="" disabled="" type="checkbox"> 完善windows下的vim，如果可以，就neovim。<ul>
+<li><input checked="" disabled="" type="checkbox"> 整合init.nvim（win &amp; linux）</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> 了解vim/neovim 的写法。</li>
+<li><input disabled="" type="checkbox"> 完善learning记录<ul>
+<li><input disabled="" type="checkbox"> 可视化界面</li>
+<li><input disabled="" type="checkbox"> 增加<strong>章节回顾程度</strong>功能</li>
+</ul>
+</li>
+<li><input checked="" disabled="" type="checkbox"> 修改 leviyan1998.github.io</li>
+<li><input checked="" disabled="" type="checkbox"> 奖励机制程序</li>
+<li><input disabled="" type="checkbox"> rime<ul>
+<li><input checked="" disabled="" type="checkbox"> linux os</li>
+<li><input checked="" disabled="" type="checkbox"> win os</li>
+<li><input disabled="" type="checkbox"> 多平台同步问题的解决方案</li>
+<li><input disabled="" type="checkbox"> 增强功能</li>
+</ul>
+</li>
+<li><input checked="" disabled="" type="checkbox"> 学习双拼（自然码）</li>
+<li><input disabled="" type="checkbox"> 整理时间数据</li>
+</ul>
+<h3 id="金钱类"><a href="#金钱类" class="headerlink" title="金钱类"></a>金钱类</h3><ul>
+<li><input checked="" disabled="" type="checkbox"> 一杯奶茶（<del>预支</del>）</li>
+</ul>
+<h2 id="奖惩规则"><a href="#奖惩规则" class="headerlink" title="奖惩规则"></a>奖惩规则</h2><h3 id="奖惩时间"><a href="#奖惩时间" class="headerlink" title="奖惩时间"></a>奖惩时间</h3><p>周六</p>
+<h3 id="硬性奖励"><a href="#硬性奖励" class="headerlink" title="硬性奖励"></a>硬性奖励</h3><h4 id="时间"><a href="#时间" class="headerlink" title="时间"></a>时间</h4><p>周六上午，截止时间 12：30</p>
+<h4 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h4><ul>
+<li>补觉（推荐），多睡1~ 2h</li>
+<li>休闲</li>
+<li>散步</li>
+<li>爱好</li>
+</ul>
+<h3 id="评分兑换规则"><a href="#评分兑换规则" class="headerlink" title="评分兑换规则"></a>评分兑换规则</h3><p>开始时间：吃完午饭</p>
+<h4 id="奖励兑换"><a href="#奖励兑换" class="headerlink" title="奖励兑换"></a>奖励兑换</h4><p><strong>上平</strong></p>
+<ul>
+<li>+1h  <strong>/</strong>  ￥2</li>
+</ul>
+<p><strong>上</strong></p>
+<ul>
+<li>+2h  <strong>/</strong>  ￥4</li>
+</ul>
+<h4 id="惩罚兑换（如果本周被减完，累计到下周）"><a href="#惩罚兑换（如果本周被减完，累计到下周）" class="headerlink" title="惩罚兑换（如果本周被减完，累计到下周）"></a>惩罚兑换（如果本周被减完，累计到下周）</h4><p><strong>下平</strong></p>
+<ul>
+<li>-30min  <strong>/</strong>  ￥1</li>
+</ul>
+<p><strong>下</strong></p>
+<ul>
+<li>-1h  /  -￥2</li>
+</ul>
+<h2 id="补课措施"><a href="#补课措施" class="headerlink" title="补课措施"></a>补课措施</h2><p>补课时间</p>
+<ul>
+<li>奖励时间执行完毕（如果本周没有奖励时间，直接执行）</li>
+</ul>
+<p>补课内容</p>
+<ul>
+<li>（<strong>首选</strong>）基础类</li>
+<li>其他</li>
+</ul>
+<h2 id="特别声明"><a href="#特别声明" class="headerlink" title="特别声明"></a>特别声明</h2><p>即便是周六也要遵守<strong>生活保证</strong>的规则。</p>
+<h2 id="奖惩记录"><a href="#奖惩记录" class="headerlink" title="奖惩记录"></a>奖惩记录</h2><table>
+<thead>
+<tr>
+<th>w1</th>
+<th>w2</th>
+<th>w3</th>
+</tr>
+</thead>
+<tbody><tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<h1 id="评分"><a href="#评分" class="headerlink" title="评分"></a>评分</h1><h2 id="如何评分（动态变化）"><a href="#如何评分（动态变化）" class="headerlink" title="如何评分（动态变化）"></a>如何评分（动态变化）</h2><h3 id="总分值"><a href="#总分值" class="headerlink" title="总分值"></a>总分值</h3><ul>
+<li>5（100%）</li>
+</ul>
+<h3 id="如何评分"><a href="#如何评分" class="headerlink" title="如何评分"></a>如何评分</h3><ul>
+<li>90%+，即4.5+（上）</li>
+<li>80%+，即4.0+（上平）</li>
+<li>70%+，即3.5+（中）</li>
+<li>60%+，即3+（下平）</li>
+<li>60%-，即3.0-（下）</li>
+</ul>
+<h3 id="组成部分"><a href="#组成部分" class="headerlink" title="组成部分"></a>组成部分</h3><h4 id="生活保证：3（60-）"><a href="#生活保证：3（60-）" class="headerlink" title="生活保证：3（60%）"></a>生活保证：3（60%）</h4><ul>
+<li>早起：15%</li>
+<li>早睡：25%<ul>
+<li>a日的分数，算到a+1日上。</li>
+<li>开启连坐模式：如果今日晚睡，将会在今日<strong>已结算</strong>的分数上，<strong>继续扣分</strong>。</li>
+</ul>
+</li>
+<li>锻炼：20%</li>
+</ul>
+<h4 id="决定奖励：2（40-）"><a href="#决定奖励：2（40-）" class="headerlink" title="决定奖励：2（40%）"></a>决定奖励：2（40%）</h4><ul>
+<li>数：20%<ul>
+<li>4~5h（由整体状态好坏决定）</li>
+</ul>
+</li>
+<li>英：15%<ul>
+<li>单词（7%）</li>
+<li>语法（3%）</li>
+<li>阅读（5%）</li>
+</ul>
+</li>
+<li>专业：5%<ul>
+<li><del>专业相关的思考（5%）</del></li>
+<li><del>读书（5%）</del></li>
+<li>补课（5%）任选：<ul>
+<li>算法和数据结构（1h）</li>
+<li>离散数据</li>
+<li>csapp</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="额外奖励（无上限）"><a href="#额外奖励（无上限）" class="headerlink" title="额外奖励（无上限）"></a>额外奖励（无上限）</h4><ul>
+<li>不浪费时间：（10%）(待实验)</li>
+<li>不得不做的任务<ul>
+<li>分数等于<strong>原本要执行的任务</strong>的分值</li>
+</ul>
+</li>
+<li><input checked="" disabled="" type="checkbox"> 写一个奖励机制的程序（10%）</li>
+</ul>
+<h4 id="额外惩罚（无上限）"><a href="#额外惩罚（无上限）" class="headerlink" title="额外惩罚（无上限）"></a>额外惩罚（无上限）</h4><ul>
+<li>浪费时间（10%）</li>
+</ul>
+<h1 id="每日任务"><a href="#每日任务" class="headerlink" title="每日任务"></a>每日任务</h1><p>自2020-05-25，引入<strong>每日任务</strong>始，状态迅速提升，效果显著；特此记录<strong>每日任务</strong>的制定规则&amp;注意事项。</p>
+<p>原则：</p>
+<p>从制定角度：在了解自身状态的基础上，尽可能合理地安排。（不要安排过重的任务）</p>
+<p>从执行角度：</p>
+<p>按计划执行。</p>
+<p>如果任务安排过重，停止执行该部分任务，休息；继续执行后面任务；最后反馈。</p>
+<p><strong>尤忌</strong>临时修改任务；除非遇到<strong>十分紧急</strong>的事。（此项特别重要！！）</p>
+<p>从反馈得来的经验：</p>
+<p>身体状态</p>
+<p>安排计划</p>
+<p>保持专注</p>
+<p>兴趣爱好</p>
+<p>睡觉别开窗。（因为噪音）</p>
+<p>1.所有项目之间增加浮动时间作为缓冲。</p>
+<p>因为复习考试，扰乱计划；考试导致的情绪波动</p>
+<p>*1：发生规律&amp;措施。</p>
+<p>经测试：</p>
+<p>不加控制的情况下，两次*1的出现仅间隔1天。</p>
+<p>关于控制：</p>
+<p>1.保证只在制定时间执行。</p>
+<p>2.不可接触（平时）</p>
+<p>需要物理隔绝手机</p>
+<p>1.午饭&amp;晚饭时间可改为1h<br />2.任务之间多留些浮动时间<br />3.如果有户外活动，浮动时间为 7mins<br/></p>
+<p>1.白天多喝水，保证水分充足；不要等到跑完后，因为渴，大量饮水，睡眠质量会被严重影响。<br/>2.洗澡时间改为 15mins</p>
+<p>1.睡觉&amp;吃饭时间要严格限制在规定时间内！！（这两项如果变动，影响的事件太多）<br/>2.午觉结束，只留10mins的准备时间。<br/>3.刚跑完步后不适合做数学<br/>4.平时不能碰奖励清单上的项目</p>
+<p>1.增加锻炼时间至 1h10mins<br /></p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                    <p class="copyright-item">
+                        <span>Author:</span>
+                        <span>Levi Yan</span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Permalink:</span>
+                        <span><a href="https://leviyan1998.github.io/2020/06/04/RPRules/RPRule-202006/">https://leviyan1998.github.io/2020/06/04/RPRules/RPRule-202006/</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>License:</span>
+                        <span>Copyright (c) 2020 <a href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC-BY-NC-4.0</a> LICENSE</span>
+                    </p>
+                
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">back</a>
+                <span>· </span>
+                <a href="/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+            
+            <a class="next" rel="next" href="/2020/06/04/RPRules/RPRule-202005/">RPRule-202005</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© Levi Yan | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a></span>
+    </div>
+</footer>
+
+    </div>
+</body>
+</html>
