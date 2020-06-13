@@ -14,7 +14,7 @@
 
 
 
-<title>rime | Levi&#39;s Blog</title>
+<title>树洞 | Levi&#39;s Blog</title>
 
 
 
@@ -110,73 +110,11 @@
             <div class="container">
     
     
-        <div class="post-toc">
-    <div class="tocbot-list">
-    </div>
-    <div class="tocbot-list-menu">
-        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
-        <a onclick="go_top()">Back to top</a>
-        <a onclick="go_bottom()">Go to bottom</a>
-    </div>
-</div>
-
-<script>
-    document.ready(
-        function () {
-            tocbot.init({
-                tocSelector: '.tocbot-list',
-                contentSelector: '.post-content',
-                headingSelector: 'h1, h2, h3, h4, h5',
-                collapseDepth: 1,
-                orderedList: false,
-                scrollSmooth: true,
-            })
-        }
-    )
-
-    function expand_toc() {
-        var b = document.querySelector(".tocbot-toc-expand");
-        tocbot.init({
-            tocSelector: '.tocbot-list',
-            contentSelector: '.post-content',
-            headingSelector: 'h1, h2, h3, h4, h5',
-            collapseDepth: 6,
-            orderedList: false,
-            scrollSmooth: true,
-        });
-        b.setAttribute("onclick", "collapse_toc()");
-        b.innerHTML = "Collapse all"
-    }
-
-    function collapse_toc() {
-        var b = document.querySelector(".tocbot-toc-expand");
-        tocbot.init({
-            tocSelector: '.tocbot-list',
-            contentSelector: '.post-content',
-            headingSelector: 'h1, h2, h3, h4, h5',
-            collapseDepth: 1,
-            orderedList: false,
-            scrollSmooth: true,
-        });
-        b.setAttribute("onclick", "expand_toc()");
-        b.innerHTML = "Expand all"
-    }
-
-    function go_top() {
-        window.scrollTo(0, 0);
-    }
-
-    function go_bottom() {
-        window.scrollTo(0, document.body.scrollHeight);
-    }
-
-</script>
-    
 
     
     <article class="post-wrap">
         <header class="post-header">
-            <h1 class="post-title">rime</h1>
+            <h1 class="post-title">树洞</h1>
             
                 <div class="post-meta">
                     
@@ -185,13 +123,13 @@
 
                     
                         <span class="post-time">
-                        Date: <a href="#">June 12, 2020&nbsp;&nbsp;23:38:33</a>
+                        Date: <a href="#">June 13, 2020&nbsp;&nbsp;23:42:03</a>
                         </span>
                     
                     
                     
                         <span class="post-time">
-                        Updated:<a href="#">June 13, 2020&nbsp;&nbsp;18:11:11</a>
+                        Updated:<a href="#">June 13, 2020&nbsp;&nbsp;23:42:03</a>
                         </span>
                     
                     
@@ -199,7 +137,7 @@
                         <span class="post-category">
                     Category:
                             
-                                <a href="/categories/tutorials/">tutorials</a>
+                                <a href="/categories/default/">default</a>
                             
                         </span>
                     
@@ -208,12 +146,10 @@
         </header>
 
         <div class="post-content">
-            <blockquote>
-<p>Warning: 这篇文章还没有被完成，会有错误。</p>
+            <p>2020-06-13 23:45:54</p>
+<blockquote>
+<p>难熬你也得熬过去，这条路你迟早要走；你现在因为怕苦，可以暂时不走，让时间稀释痛苦，慢慢走，确实可行，但你到后面就会发现，没时间了。</p>
 </blockquote>
-<h3 id="同步"><a href="#同步" class="headerlink" title="同步"></a>同步</h3><p><strong>说明</strong></p>
-<p><code>sync</code>内放几个系统的rime同步文件夹（其中包含了各自的 <code>userdb.txt</code>）。同步后，会把其他 <code>userdb.txt</code>的数据同步到当前系统的同步文件夹内的 <code>userdb.txt</code>中；此外，用户文件夹内的 用户数据也会被更新。但是，<strong>用户配置不会被更新</strong>。</p>
-<p>即，用户数据同步是双向的，用户配置是单项的。</p>
 
         </div>
 
@@ -228,7 +164,7 @@
                 
                     <p class="copyright-item">
                         <span>Permalink:</span>
-                        <span><a href="https://leviyan1998.github.io/2020/06/12/tutorials/rime/">https://leviyan1998.github.io/2020/06/12/tutorials/rime/</a></span>
+                        <span><a href="https://leviyan1998.github.io/2020/06/13/mind/%E6%A0%91%E6%B4%9E/">https://leviyan1998.github.io/2020/06/13/mind/%E6%A0%91%E6%B4%9E/</a></span>
                     </p>
                 
                 
@@ -247,7 +183,7 @@
                 <span class="tag">
                     
                     
-                        <a href="/tags/memo/"># memo</a>
+                        <a href="/tags/mind/"># mind</a>
                     
                         
                 </span>
@@ -260,10 +196,8 @@
         </section>
         <section class="post-nav">
             
-                <a class="prev" rel="prev" href="/2020/06/12/tutorials/useful-tutorial-collection/">useful tutorial collection</a>
             
-            
-            <a class="next" rel="next" href="/2020/06/10/tutorials/content-for-mySystem/">content for mySystem</a>
+            <a class="next" rel="next" href="/2020/06/12/tutorials/useful-tutorial-collection/">useful tutorial collection</a>
             
         </section>
 
