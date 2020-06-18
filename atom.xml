@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://leviyan1998.github.io/"/>
-  <updated>2020-06-18T09:12:01.000Z</updated>
+  <updated>2020-06-18T10:03:29.000Z</updated>
   <id>https://leviyan1998.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>chrome</title>
+    <link href="https://leviyan1998.github.io/2020/06/18/tutorials/chrome/"/>
+    <id>https://leviyan1998.github.io/2020/06/18/tutorials/chrome/</id>
+    <published>2020-06-18T10:03:29.000Z</published>
+    <updated>2020-06-18T10:03:29.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>chrome手动更新办法</p><ol><li>进入<a href="chrome://sync-internals/">链接</a></li><li>点击 <code>Disable Sync (Clear Data)</code> 按钮</li><li>点击 <code>Request Start</code> 按钮</li><li>等待</li><li>成功的样子如下图，中部有提交记录。<br><img src="_v_images/20200618181531961_508279529.png" alt="success"></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;chrome手动更新办法&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;进入&lt;a href=&quot;chrome://sync-internals/&quot;&gt;链接&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;点击 &lt;code&gt;Disable Sync (Clear Data)&lt;/code&gt; 按钮&lt;/li&gt;
+&lt;li&gt;点击 &lt;
+      
+    
+    </summary>
+    
+    
+      <category term="tutorials" scheme="https://leviyan1998.github.io/categories/tutorials/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>SwitchyOmega</title>
