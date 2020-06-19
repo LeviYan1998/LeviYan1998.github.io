@@ -23,7 +23,7 @@
     <published>2020-06-18T10:03:29.000Z</published>
     <updated>2020-06-18T10:03:29.000Z</updated>
     
-    <content type="html"><![CDATA[<p>chrome手动更新办法</p><ol><li>进入链接: chrome://sync-internals/</li><li>点击 <code>Disable Sync (Clear Data)</code> 按钮</li><li>点击 <code>Request Start</code> 按钮</li><li>等待</li><li>成功的样子如下图，中部有提交记录。<br><img src="_v_images/20200618181531961_508279529.png" alt="success"></li></ol>]]></content>
+    <content type="html"><![CDATA[<p>chrome手动更新办法</p><ol><li>进入链接: chrome://sync-internals/</li><li>点击 <code>Disable Sync (Clear Data)</code> 按钮</li><li>点击 <code>Request Start</code> 按钮</li><li>等待</li><li>成功的样子如下图，中部有提交记录。<br><img src="https://s1.ax1x.com/2020/06/19/NKJBk9.png" alt="success"></li></ol>]]></content>
     
     <summary type="html">
     
