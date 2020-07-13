@@ -2,58 +2,100 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://leviyan1998.github.io/2020/06/18/tutorials/chrome/</loc>
+    <loc>https://leviyanx.github.io/2020/06/20/problems/%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90%E6%B1%A1%E6%9F%93%E9%97%AE%E9%A2%98%E5%90%88%E9%9B%86/</loc>
+    
+    <lastmod>2020-07-13T03:31:57.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://leviyanx.github.io/2020/06/12/tutorials/useful-tutorial-collection/</loc>
+    
+    <lastmod>2020-07-13T03:31:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://leviyanx.github.io/2020/06/18/tutorials/SwitchyOmega/</loc>
+    
+    <lastmod>2020-07-13T03:30:44.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://leviyanx.github.io/2020/06/12/tutorials/rime/</loc>
+    
+    <lastmod>2020-07-13T03:29:50.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://leviyanx.github.io/2020/06/04/tutorials/hexo/</loc>
+    
+    <lastmod>2020-07-13T03:29:15.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://leviyanx.github.io/2020/06/10/tutorials/git/</loc>
+    
+    <lastmod>2020-07-13T03:28:47.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://leviyanx.github.io/2020/06/19/tutorials/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E7%9A%84%E9%AB%98%E6%95%88%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</loc>
+    
+    <lastmod>2020-07-12T10:34:30.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://leviyanx.github.io/2020/07/12/tutorials/ipv6/</loc>
+    
+    <lastmod>2020-07-12T10:09:42.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://leviyanx.github.io/2020/07/12/tutorials/ssh/</loc>
+    
+    <lastmod>2020-07-12T10:06:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://leviyanx.github.io/2020/04/06/problems/archlinux%20%E8%A7%A3%E5%86%B3wine%E7%B3%BB%E5%BA%94%E7%94%A8%EF%BC%88%E5%A6%82tim%E3%80%81wps%EF%BC%89%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8fcitx%E8%BE%93%E5%85%A5%E4%B8%AD%E6%96%87%E7%9A%84%E9%97%AE%E9%A2%98/</loc>
+    
+    <lastmod>2020-06-21T02:35:21.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://leviyanx.github.io/2020/06/20/tutorials/scoop/</loc>
+    
+    <lastmod>2020-06-20T06:30:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://leviyanx.github.io/2020/06/18/tutorials/chrome/</loc>
     
     <lastmod>2020-06-18T10:03:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://leviyan1998.github.io/2020/06/18/tutorials/SwitchyOmega/</loc>
-    
-    <lastmod>2020-06-18T09:12:01.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://leviyan1998.github.io/2020/06/12/tutorials/useful-tutorial-collection/</loc>
-    
-    <lastmod>2020-06-13T07:36:02.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://leviyan1998.github.io/2020/06/04/RPRules/RPRule-202006/</loc>
-    
-    <lastmod>2020-06-13T04:11:00.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://leviyan1998.github.io/2020/06/04/tutorials/hexo/</loc>
-    
-    <lastmod>2020-06-10T04:25:33.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://leviyan1998.github.io/category/index.html</loc>
+    <loc>https://leviyanx.github.io/category/index.html</loc>
     
     <lastmod>2020-06-07T13:42:04.885Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://leviyan1998.github.io/tag/index.html</loc>
+    <loc>https://leviyanx.github.io/tag/index.html</loc>
     
     <lastmod>2020-06-07T13:42:04.885Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://leviyan1998.github.io/2020/06/04/RPRules/RPRule-202005/</loc>
-    
-    <lastmod>2020-06-04T04:02:17.000Z</lastmod>
     
   </url>
   

@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://leviyan1998.github.io/"/>
-  <updated>2020-06-18T10:03:29.000Z</updated>
-  <id>https://leviyan1998.github.io/</id>
+  <link href="https://leviyanx.github.io/"/>
+  <updated>2020-07-12T10:09:42.000Z</updated>
+  <id>https://leviyanx.github.io/</id>
   
   <author>
     <name>Levi Yan</name>
@@ -17,13 +17,159 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>ipv6</title>
+    <link href="https://leviyanx.github.io/2020/07/12/tutorials/ipv6/"/>
+    <id>https://leviyanx.github.io/2020/07/12/tutorials/ipv6/</id>
+    <published>2020-07-12T10:07:10.000Z</published>
+    <updated>2020-07-12T10:09:42.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="ipv6"><a href="#ipv6" class="headerlink" title="ipv6"></a>ipv6</h1><p>检测宽带网络是否支持IPv6<br>很简单，用连接家中宽带的电脑打开浏览器，搜索 <a href="http://test-ipv6.com" target="_blank" rel="noopener">http://test-ipv6.com</a> ，进入IPv6测试页面，即可得到IPv6网络测试结果。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;ipv6&quot;&gt;&lt;a href=&quot;#ipv6&quot; class=&quot;headerlink&quot; title=&quot;ipv6&quot;&gt;&lt;/a&gt;ipv6&lt;/h1&gt;&lt;p&gt;检测宽带网络是否支持IPv6&lt;br&gt;很简单，用连接家中宽带的电脑打开浏览器，搜索 &lt;a href=&quot;http://test-
+      
+    
+    </summary>
+    
+    
+      <category term="tutorials" scheme="https://leviyanx.github.io/categories/tutorials/"/>
+    
+    
+      <category term="for own use" scheme="https://leviyanx.github.io/tags/for-own-use/"/>
+    
+      <category term="network" scheme="https://leviyanx.github.io/tags/network/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ssh</title>
+    <link href="https://leviyanx.github.io/2020/07/12/tutorials/ssh/"/>
+    <id>https://leviyanx.github.io/2020/07/12/tutorials/ssh/</id>
+    <published>2020-07-12T10:06:39.000Z</published>
+    <updated>2020-07-12T10:06:39.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="ssh"><a href="#ssh" class="headerlink" title="ssh"></a>ssh</h1><h3 id="generate-a-new-ssh"><a href="#generate-a-new-ssh" class="headerlink" title="generate a new ssh"></a>generate a new ssh</h3><p>open bash or powershell, and run</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -b 4096 -C <span class="string">"your_email@example.com"</span></span><br></pre></td></tr></table></figure><p><code>your_email@example.com</code> use your Github email best.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;ssh&quot;&gt;&lt;a href=&quot;#ssh&quot; class=&quot;headerlink&quot; title=&quot;ssh&quot;&gt;&lt;/a&gt;ssh&lt;/h1&gt;&lt;h3 id=&quot;generate-a-new-ssh&quot;&gt;&lt;a href=&quot;#generate-a-new-ssh&quot; class=&quot;head
+      
+    
+    </summary>
+    
+    
+      <category term="tutorials" scheme="https://leviyanx.github.io/categories/tutorials/"/>
+    
+    
+      <category term="for own use" scheme="https://leviyanx.github.io/tags/for-own-use/"/>
+    
+      <category term="git" scheme="https://leviyanx.github.io/tags/git/"/>
+    
+      <category term="ssh" scheme="https://leviyanx.github.io/tags/ssh/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>域名解析污染问题合集</title>
+    <link href="https://leviyanx.github.io/2020/06/20/problems/%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90%E6%B1%A1%E6%9F%93%E9%97%AE%E9%A2%98%E5%90%88%E9%9B%86/"/>
+    <id>https://leviyanx.github.io/2020/06/20/problems/%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90%E6%B1%A1%E6%9F%93%E9%97%AE%E9%A2%98%E5%90%88%E9%9B%86/</id>
+    <published>2020-06-20T06:30:39.000Z</published>
+    <updated>2020-07-13T03:31:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="GitHub的raw-githubusercontent-com域名解析被污染"><a href="#GitHub的raw-githubusercontent-com域名解析被污染" class="headerlink" title="GitHub的raw.githubusercontent.com域名解析被污染"></a>GitHub的raw.githubusercontent.com域名解析被污染</h3><p><strong>现象</strong>：下载文件的时候出现：<code>Failed to connect to raw.githubusercontent.com port 443: Connection refused</code>。</p><p><strong>解决办法</strong>：修改host</p><ol><li>编辑hosts<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo vim &#x2F;etc&#x2F;hosts</span><br></pre></td></tr></table></figure></li><li>添加<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">199.232.28.133 raw.githubusercontent.com # 192.232.28.133 是真实ip</span><br></pre></td></tr></table></figure></li></ol><h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ul><li><a href="https://www.cnblogs.com/Dylansuns/p/12309847.html" target="_blank" rel="noopener">Failed to connect to raw.githubusercontent.com port 443: Connection refused</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;GitHub的raw-githubusercontent-com域名解析被污染&quot;&gt;&lt;a href=&quot;#GitHub的raw-githubusercontent-com域名解析被污染&quot; class=&quot;headerlink&quot; title=&quot;GitHub的raw.git
+      
+    
+    </summary>
+    
+    
+      <category term="problems" scheme="https://leviyanx.github.io/categories/problems/"/>
+    
+    
+      <category term="GFW" scheme="https://leviyanx.github.io/tags/GFW/"/>
+    
+      <category term="for own use" scheme="https://leviyanx.github.io/tags/for-own-use/"/>
+    
+      <category term="network" scheme="https://leviyanx.github.io/tags/network/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>scoop</title>
+    <link href="https://leviyanx.github.io/2020/06/20/tutorials/scoop/"/>
+    <id>https://leviyanx.github.io/2020/06/20/tutorials/scoop/</id>
+    <published>2020-06-20T06:30:39.000Z</published>
+    <updated>2020-06-20T06:30:39.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Attention"><a href="#Attention" class="headerlink" title="Attention"></a>Attention</h3><p>All commands written in this article need to be run in <code>powershell</code>.</p><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>Download, and installation</p><ul><li><a href="https://davidsheh.github.io/2017/09/09/windows-chocolatey-scoop/" target="_blank" rel="noopener">https://davidsheh.github.io/2017/09/09/windows-chocolatey-scoop/</a></li><li><a href="https://sspai.com/post/52496" target="_blank" rel="noopener">https://sspai.com/post/52496</a></li></ul><p>Usage</p><ul><li><a href="http://www.igiven.com/tool/scoop-use/" target="_blank" rel="noopener">http://www.igiven.com/tool/scoop-use/</a></li><li><a href="https://www.cnblogs.com/hongdada/p/11844277.html" target="_blank" rel="noopener">( Advance )</a></li><li><a href="https://github.com/lukesampson/scoop/wiki" target="_blank" rel="noopener">( Official document )</a></li><li><a href="https://www.h404bi.com/blog/2018/05/talk-about-scoop-the-package-manager-for-windows-again/" target="_blank" rel="noopener">https://www.h404bi.com/blog/2018/05/talk-about-scoop-the-package-manager-for-windows-again/</a></li></ul><h3 id="Basic-requirement"><a href="#Basic-requirement" class="headerlink" title="Basic requirement"></a>Basic requirement</h3><p>安装 Scoop 很简单，不过你需要先确定一些基础环境是否符合安装要求：</p><ul><li>Windows 版本不低于 Windows 7</li><li>Windows 中的 PowerShell 版本不低于 PowerShell 3</li><li>你能 正常、快速 的访问 GitHub 并下载上面的资源</li><li>你的 Windows 用户名为英文（Windows 用户环境变量中路径值不支持中文字符）</li></ul><h3 id="Download-and-installation"><a href="#Download-and-installation" class="headerlink" title="Download and installation"></a>Download and installation</h3><p>如果你不想要自定义路径，跳过 2和4 步。</p><ol><li><p>在 PowerShell 中输入下面内容，保证允许本地脚本的执行：</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">set-executionpolicy</span> remotesigned <span class="literal">-scope</span> currentuser</span><br></pre></td></tr></table></figure></li><li><p>配置scoop的环境变量，设置自己的（当前用户）软件安装路径（我的是’D:\Software\Scoop’），在powershell下运行：</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[<span class="type">environment</span>]::setEnvironmentVariable(<span class="string">'SCOOP'</span>,<span class="string">'D:\Software\Scoop'</span>,<span class="string">'User'</span>)</span><br></pre></td></tr></table></figure></li><li><p>然后执行下面的命令安装 Scoop：</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">iex (<span class="built_in">new-object</span> net.webclient).downloadstring(<span class="string">'https://get.scoop.sh'</span>)</span><br></pre></td></tr></table></figure><p>或者使用脚本 <a href="https://github.com/leviyanx/scoop" target="_blank" rel="noopener">https://github.com/leviyanx/scoop</a></p></li><li><p>配置全局（所有用户）安装路径，在powershell下运行：</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[<span class="type">environment</span>]::setEnvironmentVariable(<span class="string">'SCOOP_GLOBAL'</span>,<span class="string">'D:\Software\ScoopGobalApps'</span>,<span class="string">'Machine'</span>)</span><br></pre></td></tr></table></figure></li><li><p>静待脚本执行完成就可以了，安装成功后，让我们尝试一下：</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scoop help</span><br></pre></td></tr></table></figure></li></ol><h3 id="Accelerate-download"><a href="#Accelerate-download" class="headerlink" title="Accelerate download"></a>Accelerate download</h3><p>没有git的情况下，设置代理+ssr开全局，很快。（再加一个aria2更快）</p><h4 id="Aria2"><a href="#Aria2" class="headerlink" title="Aria2"></a>Aria2</h4><p>Install aria2</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Scoop install aria2</span><br></pre></td></tr></table></figure><p>Disable aira2</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scoop config aria2<span class="literal">-enabled</span> false</span><br></pre></td></tr></table></figure><h4 id="Add-bucket（need-git）"><a href="#Add-bucket（need-git）" class="headerlink" title="Add bucket（need git）"></a>Add bucket（need git）</h4><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scoop bucket add &lt;bucketname&gt;</span><br></pre></td></tr></table></figure><p>Official bucket:</p><ul><li>scoop bucket add extras;</li><li>scoop bucket add Java;</li><li>scoop bucket add versions;</li><li>scoop bucket add Nirsoft</li></ul><p>Third-party bucket:</p><ul><li>scoop bucket add Ash258 ‘<a href="https://github.com/Ash258/scoop-Ash258.git&#39;" target="_blank" rel="noopener">https://github.com/Ash258/scoop-Ash258.git&#39;</a></li><li>scoop bucket add dodorz <a href="https://github.com/dodorz/scoop-bucket" target="_blank" rel="noopener">https://github.com/dodorz/scoop-bucket</a></li><li>scoop bucket add dorado <a href="https://github.com/h404bi/dorado" target="_blank" rel="noopener">https://github.com/h404bi/dorado</a></li></ul><h3 id="Proxy"><a href="#Proxy" class="headerlink" title="Proxy"></a>Proxy</h3><p>仅有代理速度也比没有代理快（没有git，没有添加bucket，没有使用aria2的时候），可能这时候的源用的是国外的。</p><p>Add proxy</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># scoop config proxy ip:port</span></span><br><span class="line">scoop config proxy <span class="number">127.0</span>.<span class="number">0.1</span>:<span class="number">1080</span></span><br></pre></td></tr></table></figure><p>Remove proxy</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scoop config rm proxy</span><br></pre></td></tr></table></figure><h3 id="Basic-software"><a href="#Basic-software" class="headerlink" title="Basic software"></a>Basic software</h3><p>Git</p><h3 id="Problems"><a href="#Problems" class="headerlink" title="Problems"></a>Problems</h3><h4 id="Right-menu-amp-file-association"><a href="#Right-menu-amp-file-association" class="headerlink" title="Right menu &amp; file association"></a>Right menu &amp; file association</h4><p>安装之后一般系统环境变量是设置好了的，但是有些软件的文件关联，右键菜单之类需要手动添加，可以先scoop info ，看看有没有相关配置说明参考。<a href="https://shenbo.github.io/2019/02/23/apps/%E4%BD%BF%E7%94%A8scoop%E5%AE%89%E8%A3%85%E7%AE%A1%E7%90%86windows%E8%BD%AF%E4%BB%B6/" target="_blank" rel="noopener">Reference</a> </p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Attention&quot;&gt;&lt;a href=&quot;#Attention&quot; class=&quot;headerlink&quot; title=&quot;Attention&quot;&gt;&lt;/a&gt;Attention&lt;/h3&gt;&lt;p&gt;All commands written in this article need 
+      
+    
+    </summary>
+    
+    
+      <category term="tutorials" scheme="https://leviyanx.github.io/categories/tutorials/"/>
+    
+    
+      <category term="for own use" scheme="https://leviyanx.github.io/tags/for-own-use/"/>
+    
+      <category term="windows" scheme="https://leviyanx.github.io/tags/windows/"/>
+    
+      <category term="nice tools" scheme="https://leviyanx.github.io/tags/nice-tools/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>搜索引擎的高效使用方法</title>
+    <link href="https://leviyanx.github.io/2020/06/19/tutorials/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E7%9A%84%E9%AB%98%E6%95%88%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/"/>
+    <id>https://leviyanx.github.io/2020/06/19/tutorials/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E7%9A%84%E9%AB%98%E6%95%88%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</id>
+    <published>2020-06-19T07:39:28.000Z</published>
+    <updated>2020-07-12T10:34:30.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="搜索引擎的高效使用方法"><a href="#搜索引擎的高效使用方法" class="headerlink" title="搜索引擎的高效使用方法"></a>搜索引擎的高效使用方法</h1><blockquote><ol><li>以下方法主要适配 <code>百度</code>，在 <code>bing</code> 和 <code>google</code> 上的效果可能会有出入。</li><li>本文没有添加示例图，不够直观，在解决图片存储问题后会添加。</li></ol></blockquote><h4 id="1-排除关键词-减号-关键词"><a href="#1-排除关键词-减号-关键词" class="headerlink" title="1.排除关键词(减号+关键词)"></a>1.排除关键词(减号+关键词)</h4><p>示例：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">三角函数 -公式</span><br></pre></td></tr></table></figure><h4 id="2-精确搜索-给关键词加引号"><a href="#2-精确搜索-给关键词加引号" class="headerlink" title="2. 精确搜索(给关键词加引号)"></a>2. 精确搜索(给关键词加引号)</h4><p>示例：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&quot;三角函数公式&quot;</span><br></pre></td></tr></table></figure><p>注意：引号是英文状态下的引号。</p><h4 id="3-指定网站内搜索-site：域名-关键词"><a href="#3-指定网站内搜索-site：域名-关键词" class="headerlink" title="3. 指定网站内搜索(site：域名 关键词)"></a>3. 指定网站内搜索(site：域名 关键词)</h4><p>示例：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">site:zhihu.com 三角函数</span><br></pre></td></tr></table></figure><p>会只显示知乎内关于三角函数的内容。</p><p><strong>应用场景</strong>：</p><p>可能有人会觉得这个功能没必要，为什么不直接进网站内搜索呢？确实，如果一个网站的搜索功能比较完善，完全没必要用这个功能。但是，的确是有一些网站的搜索功能做的一言难尽，那么在这个网站查资料的话，效率会相当的低下，这个时候就需要用到外部的搜索引擎来提高搜索效率，这就是这个功能的用处。</p><h4 id="4-指定文件格式-filetype：文件格式-关键词"><a href="#4-指定文件格式-filetype：文件格式-关键词" class="headerlink" title="4. 指定文件格式(filetype：文件格式 关键词)"></a>4. 指定文件格式(filetype：文件格式 关键词)</h4><p>示例：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">filetype:pdf 三角函数</span><br></pre></td></tr></table></figure><p>会显示所有与三角函数相关的pdf文件。</p><h4 id="5-指定标题搜索-intitle：关键词"><a href="#5-指定标题搜索-intitle：关键词" class="headerlink" title="5. 指定标题搜索(intitle：关键词)"></a>5. 指定标题搜索(intitle：关键词)</h4><p>示例：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">intitle:三角行数公式</span><br></pre></td></tr></table></figure><h4 id="6"><a href="#6" class="headerlink" title="6"></a>6</h4><h4 id="7-两种指定范围搜索-intext：-allintext：-inurl：关键词"><a href="#7-两种指定范围搜索-intext：-allintext：-inurl：关键词" class="headerlink" title="7. 两种指定范围搜索(intext：/allintext：)(inurl：关键词)"></a>7. 两种指定范围搜索(intext：/allintext：)(inurl：关键词)</h4><h4 id="8-叠加使用"><a href="#8-叠加使用" class="headerlink" title="8. 叠加使用"></a>8. 叠加使用</h4><p>注意事项：</p><blockquote><p>1.所有的冒号都是半角，也就是英文的冒号，而不是中文的冒号<br>2.空格很重要，关键词之间要有空格<br>3.提取关键词很重要(可以提高搜索效率）</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;搜索引擎的高效使用方法&quot;&gt;&lt;a href=&quot;#搜索引擎的高效使用方法&quot; class=&quot;headerlink&quot; title=&quot;搜索引擎的高效使用方法&quot;&gt;&lt;/a&gt;搜索引擎的高效使用方法&lt;/h1&gt;&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;以下方法主要适配 &lt;code&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="tutorials" scheme="https://leviyanx.github.io/categories/tutorials/"/>
+    
+    
+      <category term="recommend" scheme="https://leviyanx.github.io/tags/recommend/"/>
+    
+  </entry>
+  
+  <entry>
     <title>chrome</title>
-    <link href="https://leviyan1998.github.io/2020/06/18/tutorials/chrome/"/>
-    <id>https://leviyan1998.github.io/2020/06/18/tutorials/chrome/</id>
+    <link href="https://leviyanx.github.io/2020/06/18/tutorials/chrome/"/>
+    <id>https://leviyanx.github.io/2020/06/18/tutorials/chrome/</id>
     <published>2020-06-18T10:03:29.000Z</published>
     <updated>2020-06-18T10:03:29.000Z</updated>
     
-    <content type="html"><![CDATA[<p>chrome手动更新办法</p><ol><li>进入链接: chrome://sync-internals/</li><li>点击 <code>Disable Sync (Clear Data)</code> 按钮</li><li>点击 <code>Request Start</code> 按钮</li><li>等待</li><li>成功的样子如下图，中部有提交记录。<br><img src="https://s1.ax1x.com/2020/06/19/NKJBk9.png" alt="success"></li></ol>]]></content>
+    <content type="html"><![CDATA[<p>chrome手动更新办法</p><ol><li>进入链接: <u>chrome://sync-internals/</u></li><li>点击 <code>Disable Sync (Clear Data)</code> 按钮</li><li>点击 <code>Request Start</code> 按钮</li><li>等待</li><li>成功的样子如下图，中部有提交记录。<br><img src="https://s1.ax1x.com/2020/06/19/NKJBk9.png" alt="success"></li></ol>]]></content>
     
     <summary type="html">
     
@@ -31,25 +177,29 @@
       
         &lt;p&gt;chrome手动更新办法&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;进入链接: chrome://sync-internals/&lt;/li&gt;
+&lt;li&gt;进入链接: &lt;u&gt;chrome://sync-internals/&lt;/u&gt;&lt;/li&gt;
 &lt;li&gt;点击 &lt;code&gt;Disable Sync (Clear Data)&lt;/code&gt; 按钮&lt;/li&gt;
-&lt;li&gt;点击 &lt;code&gt;Request 
+&lt;li&gt;点击 &lt;code&gt;R
       
     
     </summary>
     
     
-      <category term="tutorials" scheme="https://leviyan1998.github.io/categories/tutorials/"/>
+      <category term="tutorials" scheme="https://leviyanx.github.io/categories/tutorials/"/>
     
+    
+      <category term="for own use" scheme="https://leviyanx.github.io/tags/for-own-use/"/>
+    
+      <category term="nice tools" scheme="https://leviyanx.github.io/tags/nice-tools/"/>
     
   </entry>
   
   <entry>
     <title>SwitchyOmega</title>
-    <link href="https://leviyan1998.github.io/2020/06/18/tutorials/SwitchyOmega/"/>
-    <id>https://leviyan1998.github.io/2020/06/18/tutorials/SwitchyOmega/</id>
+    <link href="https://leviyanx.github.io/2020/06/18/tutorials/SwitchyOmega/"/>
+    <id>https://leviyanx.github.io/2020/06/18/tutorials/SwitchyOmega/</id>
     <published>2020-06-18T09:12:01.000Z</published>
-    <updated>2020-06-18T09:12:01.000Z</updated>
+    <updated>2020-07-13T03:30:44.000Z</updated>
     
     <content type="html"><![CDATA[<p>reference</p><blockquote><p><a href="https://www.cnblogs.com/LyndonMario/p/9326176.html" target="_blank" rel="noopener">chrome神插件之：SwitchyOmega的安装设置</a></p></blockquote><p><code>rule list url</code>: <a href="https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt" target="_blank" rel="noopener">https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt</a></p>]]></content>
     
@@ -65,21 +215,23 @@
     </summary>
     
     
-      <category term="nice tools" scheme="https://leviyan1998.github.io/categories/nice-tools/"/>
-    
-      <category term="internet" scheme="https://leviyan1998.github.io/categories/nice-tools/internet/"/>
+      <category term="tutorials" scheme="https://leviyanx.github.io/categories/tutorials/"/>
     
     
-      <category term="memo" scheme="https://leviyan1998.github.io/tags/memo/"/>
+      <category term="for own use" scheme="https://leviyanx.github.io/tags/for-own-use/"/>
+    
+      <category term="network" scheme="https://leviyanx.github.io/tags/network/"/>
+    
+      <category term="nice plugin" scheme="https://leviyanx.github.io/tags/nice-plugin/"/>
     
   </entry>
   
   <entry>
     <title>useful tutorial collection</title>
-    <link href="https://leviyan1998.github.io/2020/06/12/tutorials/useful-tutorial-collection/"/>
-    <id>https://leviyan1998.github.io/2020/06/12/tutorials/useful-tutorial-collection/</id>
+    <link href="https://leviyanx.github.io/2020/06/12/tutorials/useful-tutorial-collection/"/>
+    <id>https://leviyanx.github.io/2020/06/12/tutorials/useful-tutorial-collection/</id>
     <published>2020-06-12T15:43:19.000Z</published>
-    <updated>2020-06-13T07:36:02.000Z</updated>
+    <updated>2020-07-13T03:31:18.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>这篇文章会持续更新。</p></blockquote><h3 id="script-language"><a href="#script-language" class="headerlink" title="script language"></a>script language</h3><p>vimscript</p><ul><li><a href="http://www.w3cschool.cn/vim/ljkpbozt.html" target="_blank" rel="noopener">笨方法学Vimscript</a></li></ul><p>bash</p><ul><li><a href="https://wangdoc.com/bash/" target="_blank" rel="noopener">Bash 脚本教程-阮一峰</a></li></ul><p>git </p><ul><li><a href="https://www.liaoxuefeng.com/wiki/896043488029600" target="_blank" rel="noopener">git教程-廖雪峰</a></li></ul>]]></content>
     
@@ -96,79 +248,81 @@
     </summary>
     
     
-      <category term="tutorials" scheme="https://leviyan1998.github.io/categories/tutorials/"/>
+      <category term="tutorials" scheme="https://leviyanx.github.io/categories/tutorials/"/>
     
     
-      <category term="memo" scheme="https://leviyan1998.github.io/tags/memo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>RPRule-202006</title>
-    <link href="https://leviyan1998.github.io/2020/06/04/RPRules/RPRule-202006/"/>
-    <id>https://leviyan1998.github.io/2020/06/04/RPRules/RPRule-202006/</id>
-    <published>2020-06-04T04:02:32.000Z</published>
-    <updated>2020-06-13T04:11:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>2020-06-18 更新</p><ol><li><p>评分规则将完全以<strong>反馈学习状态</strong>为目标。</p></li><li><p>取消<code>奖励选项-时间类</code>项目，将奖励时间固化。<br><code>奖励选项-时间类</code>将单独形成<code>To-to</code>清单，且自今日起停止更新。</p></li><li><p>本文结构不变，新的结构在七月版本使用。</p></li></ol><hr><h1 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h1><h2 id="总目标"><a href="#总目标" class="headerlink" title="总目标"></a>总目标</h2><ol><li>可持续的不断进步</li><li>达到能够考上的标准</li><li>不要太难操作，时间过长（5min以内）</li></ol><a id="more"></a><h2 id="本月目标"><a href="#本月目标" class="headerlink" title="本月目标"></a>本月目标</h2><h3 id="制定基础"><a href="#制定基础" class="headerlink" title="制定基础"></a>制定基础</h3><h4 id="目前情况"><a href="#目前情况" class="headerlink" title="目前情况"></a>目前情况</h4><p>数学</p><ul><li>高数：基础阶段（至第4章）</li><li>线代：基础阶段（至第2章）</li></ul><p>英语</p><ul><li>单词：词汇量不够</li><li>语法：基础语法需要恢复</li></ul><p>专业课</p><ul><li>数据结构与算法：入门阶段</li></ul><h4 id="其他重要事项"><a href="#其他重要事项" class="headerlink" title="其他重要事项"></a>其他重要事项</h4><p>考试</p><ul><li><input checked="" disabled="" type="checkbox"> 软件项目管理 ：2020-06-03  <strong>15：30-17：00</strong></li></ul><p>实验</p><ul><li><input checked="" disabled="" type="checkbox"> <p>软件项目管理：2020-06-07</p></li><li><input disabled="" type="checkbox"> <p>实训：2020-06-20</p></li></ul><p>论文</p><ul><li><input disabled="" type="checkbox"> 新技术：2020-06-20</li></ul><h3 id="目标-1"><a href="#目标-1" class="headerlink" title="目标"></a>目标</h3><p>数学</p><ul><li>总<ul><li>在<strong>6月20日</strong>，完成<strong>高数</strong>一轮复习。</li><li>在<strong>6月底</strong>，完成<strong>线代</strong>一轮复习。</li></ul></li><li>分<ul><li><del>每章需要经过 视频、做例题、1800、整理错题 阶段。</del></li><li>每章过程：课本概念、例题、视频、习题。</li><li>每章的<strong>最后复习时间</strong>距<strong>当日</strong>不能超过15日。</li><li>每日需要<strong>30m+</strong>的时间 复习/思考错题。</li></ul></li></ul><p>英语</p><ul><li><p>单词：扩大词汇量。</p></li><li><p>阅读</p><ul><li><p>每日安排<br>1.分析一篇做过的文章。<br>2.做一篇文章。</p></li><li><p>分析文章</p><ul><li><p>选单词，背。</p></li><li><p>分析</p><p>1.句型（语法）</p><p>2.结构：句子、段落、文章（每个部分的主旨、作用）。</p></li></ul></li></ul></li></ul><p>专业</p><ul><li>算法与数据结构：敲代码，练熟数据结构。</li></ul><hr><h1 id="奖惩"><a href="#奖惩" class="headerlink" title="奖惩"></a>奖惩</h1><h2 id="奖励选项"><a href="#奖励选项" class="headerlink" title="奖励选项"></a>奖励选项</h2><h3 id="时间类（本项自-2020-06-18-起不再更新）"><a href="#时间类（本项自-2020-06-18-起不再更新）" class="headerlink" title="时间类（本项自 2020-06-18 起不再更新）"></a>时间类（本项自 2020-06-18 起不再更新）</h3><ul><li><input disabled="" type="checkbox"> 个人博客网站<ul><li><input checked="" disabled="" type="checkbox"> 安装hexo，上传博客</li><li><input disabled="" type="checkbox"> 项目：推荐（public）</li><li><input checked="" disabled="" type="checkbox"> 将RPRules的item剥离gitpage，整合到博客</li></ul></li><li><input disabled="" type="checkbox"> 了解vim/neovim 的写法<ul><li><input disabled="" type="checkbox"> vimscript</li></ul></li><li><input disabled="" type="checkbox"> 完善learning记录<ul><li><input disabled="" type="checkbox"> 可视化界面</li><li><input disabled="" type="checkbox"> 增加<strong>章节回顾程度</strong>功能</li></ul></li><li><input disabled="" type="checkbox"> rime<ul><li><input checked="" disabled="" type="checkbox"> android</li><li><input checked="" disabled="" type="checkbox"> 多平台同步问题的解决方案<ul><li><input checked="" disabled="" type="checkbox"> <del>arch kde 下坚果云界面问题</del>（突然自己好了？莫名其妙。不知道之前是什么原因导致页面不正常显示）</li><li><input checked="" disabled="" type="checkbox"> linux</li><li><input checked="" disabled="" type="checkbox"> win</li><li><input checked="" disabled="" type="checkbox"> android</li></ul></li><li><input disabled="" type="checkbox"> 增强功能（定制化）</li></ul></li><li><input disabled="" type="checkbox"> 整理电子数据<ul><li><input disabled="" type="checkbox"> 文档</li><li><input disabled="" type="checkbox"> 图片</li></ul></li><li><input disabled="" type="checkbox"> 电子数据整理方案形成体系</li><li><input checked="" disabled="" type="checkbox"> fork hexo-theme-Chic，添加我的修改</li><li><input disabled="" type="checkbox"> neovim markdown preview</li><li><input disabled="" type="checkbox"> lazygit</li><li><input disabled="" type="checkbox"> hexo-theme-Chic 添加新功能</li><li><input checked="" disabled="" type="checkbox"> 搭建个人文档仓库<ul><li><input checked="" disabled="" type="checkbox"> 建库</li><li><input checked="" disabled="" type="checkbox"> 添加自动化脚本</li></ul></li><li><input disabled="" type="checkbox"> <strong>研究算法</strong></li><li><input disabled="" type="checkbox"> <strong>研究我的snippets</strong><ul><li><input disabled="" type="checkbox"> vscode</li><li><input disabled="" type="checkbox"> <strong>vnote</strong></li><li><input disabled="" type="checkbox"> vim - ultisnips (<a href="https://vimzijun.net/2016/10/30/ultisnip/" target="_blank" rel="noopener">link</a>)</li></ul></li></ul><h3 id="金钱类"><a href="#金钱类" class="headerlink" title="金钱类"></a>金钱类</h3><ul><li><input checked="" disabled="" type="checkbox"> 一杯奶茶（<del>预支</del>）</li></ul><h2 id="奖惩规则"><a href="#奖惩规则" class="headerlink" title="奖惩规则"></a>奖惩规则</h2><p>奖惩时间：周六</p><h3 id="硬性奖励"><a href="#硬性奖励" class="headerlink" title="硬性奖励"></a>硬性奖励</h3><p>时间：周六上午，截止时间 12 30</p><p>内容</p><ul><li>在生活规定范围内的都可以。</li><li>推荐补觉。</li></ul><h3 id="状态兑换规则"><a href="#状态兑换规则" class="headerlink" title="状态兑换规则"></a>状态兑换规则</h3><table><thead><tr><th>状态</th><th>奖惩兑换</th></tr></thead><tbody><tr><td>上</td><td>+2h  <strong>/</strong>  ￥4</td></tr><tr><td>上平</td><td>+1h  <strong>/</strong>  ￥2</td></tr><tr><td>下平</td><td>-30min  <strong>/</strong>  ￥1</td></tr><tr><td>下</td><td>-1h  /  -￥2</td></tr></tbody></table><p>评分未兑换完的，<strong>可延续</strong>。</p><h2 id="奖惩记录"><a href="#奖惩记录" class="headerlink" title="奖惩记录"></a>奖惩记录</h2><table><thead><tr><th>w1</th><th>w2</th><th>w3</th></tr></thead><tbody><tr><td>0</td><td>0</td><td></td></tr></tbody></table><h2 id="额外说明"><a href="#额外说明" class="headerlink" title="额外说明"></a>额外说明</h2><p>补课措施</p><ul><li><p>补课时间：奖励时间执行完毕（如果本周没有奖励时间，直接执行）</p></li><li><p>补课内容</p><ul><li>（<strong>首选</strong>）平时不能兼顾的：如高数前面几章的复习、专业课。</li><li>其他</li></ul></li></ul><p><strong>特别声明</strong></p><p>即便是周六也要遵守<strong>生活保证</strong>的规则。</p><hr><h1 id="评分"><a href="#评分" class="headerlink" title="评分"></a>评分</h1><h2 id="规则"><a href="#规则" class="headerlink" title="规则"></a>规则</h2><p>总分值：5（100%）</p><p>如何评分</p><table><thead><tr><th>分数</th><th>状态</th></tr></thead><tbody><tr><td>90%+，即4.5+</td><td>（上）</td></tr><tr><td>80%+，即4.0+</td><td>（上平）</td></tr><tr><td>70%+，即3.5+</td><td>（中）</td></tr><tr><td>60%+，即3+</td><td>（下平）</td></tr><tr><td>60%-，即3.0-</td><td>（下）</td></tr></tbody></table><h2 id="组成部分"><a href="#组成部分" class="headerlink" title="组成部分"></a>组成部分</h2><h3 id="生活保证：3（60-）"><a href="#生活保证：3（60-）" class="headerlink" title="生活保证：3（60%）"></a>生活保证：3（60%）</h3><p>早起：15%</p><p>早睡：25%</p><ul><li>a日的分数，算到a+1日上。</li><li>开启连坐模式：如果今日晚睡，将会在今日<strong>已结算</strong>的分数上，<strong>继续扣分</strong>。</li></ul><p>锻炼：20%</p><h3 id="决定奖励：2（40-）"><a href="#决定奖励：2（40-）" class="headerlink" title="决定奖励：2（40%）"></a>决定奖励：2（40%）</h3><p>数：20%</p><ul><li>4~6h（由整体状态好坏决定）</li></ul><p>英：15%</p><ul><li>单词（7%）</li><li>语法（3%）</li><li>阅读（5%）</li></ul><p>专业：5%</p><ul><li><del>专业相关的思考（5%）</del></li><li><del>读书（5%）</del></li><li>补课（5%）任选：<ul><li>算法和数据结构（1h）</li><li>离散数据</li><li>csapp</li></ul></li></ul><h3 id="额外奖励（无上限）"><a href="#额外奖励（无上限）" class="headerlink" title="额外奖励（无上限）"></a>额外奖励（无上限）</h3><ol><li><p>不浪费时间：（10%）(待实验)</p></li><li><p><del>不得不做的任务</del>（于 <strong>2020-06-17</strong>日取消）</p><ul><li><del>分数等于<strong>原本要执行的任务</strong>的分值</del></li></ul></li></ol><ul><li><input checked="" disabled="" type="checkbox"> 写一个奖励机制的程序（10%）</li></ul><h3 id="额外惩罚（无上限）"><a href="#额外惩罚（无上限）" class="headerlink" title="额外惩罚（无上限）"></a>额外惩罚（无上限）</h3><ol><li>浪费时间<ul><li>上限：10%。</li><li>可根据实际情况调整扣除分数。</li></ul></li><li>*1：10%</li></ol><hr><h1 id="每日任务"><a href="#每日任务" class="headerlink" title="每日任务"></a>每日任务</h1><p>自2020-05-25，引入<strong>每日任务</strong>始，状态迅速提升，效果显著；特此记录<strong>每日任务</strong>的制定规则&amp;注意事项。</p><h2 id="原则"><a href="#原则" class="headerlink" title="原则"></a>原则</h2><table><thead><tr><th>从制定角度</th><th>从执行角度</th></tr></thead><tbody><tr><td>在了解自身状态的基础上，尽可能合理地安排。（不要安排过重的任务）</td><td>1.<strong>按计划执行，不要临时修改计划；</strong>。<br />2.如果任务安排过重，停止执行该部分任务，休息；继续执行后面任务；最后<strong>反馈</strong>。<br />3.<strong>错过就错过了，不要想着补回来，会耽误更多；把耽误原因记录下来。</strong><br /><strong>尤忌</strong>临时修改任务；除非遇到<strong>十分紧急</strong>的事。（此项特别重要！！）</td></tr></tbody></table><h2 id="从反馈得来的经验"><a href="#从反馈得来的经验" class="headerlink" title="从反馈得来的经验"></a>从反馈得来的经验</h2><h3 id="1-通用"><a href="#1-通用" class="headerlink" title="1. 通用"></a>1. 通用</h3><p>避免接触会引起情绪波动的事，尽量保持情绪的稳定，因为情绪的波动对注意力的破坏很严重。如果遇到情绪波动过大的情况：一、等安静下来再继续；二、出去走走；三，去做比较容易集中注意力的事；四、先把事情记下来，再处理；以上的方法针对不同的情况起作用。</p><h3 id="2-考研时期"><a href="#2-考研时期" class="headerlink" title="2. 考研时期"></a>2. 考研时期</h3><p><strong>身体状态</strong></p><ul><li>睡觉<ul><li>隔绝<strong>噪音</strong>&amp;<strong>光线</strong>。<ul><li>带耳塞（macks）。</li><li>拉窗帘。</li></ul></li><li>温度：<strong>体感温度 26 &amp; 天气炎热 | 超过30mins睡不着 | 白天温度超过xx摄氏度，开空调。</strong></li></ul></li><li>白天多喝水，保证水分充足；不要等到跑完后，因为渴，大量饮水，睡眠质量会被严重影响。</li></ul><p><strong>安排计划</strong></p><ul><li>所有项目之间增加浮动时间作为缓冲，建议10mins+。<br>如果是项目内部间断，休息时间未5mins；但是单个项目时长不要超过2h。<br>如果是户外运动，浮动时间建议15mins+。</li><li>增加锻炼时间至 1h10mins。 ★</li><li>午饭&amp;晚饭时间可改为1h。 ★</li><li>午觉结束，只留10mins的准备时间。★</li><li>洗澡时间改为 15mins。★</li><li>起床时间改为 8 00。★</li><li><strong>每天安排一段时间处理自己的琐事/思考</strong></li><li><strong>周五晚上9点，开始休息。</strong><br><strong>周六中午12点30，停止休息。</strong></li></ul><p><strong>执行计划</strong></p><ul><li><strong>睡觉</strong>&amp;<strong>吃饭</strong>时间要严格限制在规定时间内！（这两项如果变动，影响的事件太多）</li><li>*1<ul><li>规律：不加控制的情况下，两次*1的出现仅间隔1天</li><li>控制：<ul><li>保证只在制定时间执行。</li><li>不可接触（平时）</li></ul></li></ul></li><li><strong>上厕所的时候别带手机！</strong></li></ul><p><strong>保持专注</strong></p><ul><li>需要物理隔绝手机。</li><li>刚跑完步后不适合做数学，无法专注。</li><li>遇到突然想去做/怕忘记的事，记录到旁边的白纸上，休息时间再去做。（防止白熊效应）</li></ul><p><strong>兴趣爱好</strong></p><ul><li>平时不能碰奖励清单上的项目。</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;2020-06-18 更新&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;评分规则将完全以&lt;strong&gt;反馈学习状态&lt;/strong&gt;为目标。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;取消&lt;code&gt;奖励选项-时间类&lt;/code&gt;项目，将奖励时间固化。&lt;br&gt;&lt;code&gt;奖励选项-时间类&lt;/code&gt;将单独形成&lt;code&gt;To-to&lt;/code&gt;清单，且自今日起停止更新。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;本文结构不变，新的结构在七月版本使用。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;hr&gt;
-&lt;h1 id=&quot;目标&quot;&gt;&lt;a href=&quot;#目标&quot; class=&quot;headerlink&quot; title=&quot;目标&quot;&gt;&lt;/a&gt;目标&lt;/h1&gt;&lt;h2 id=&quot;总目标&quot;&gt;&lt;a href=&quot;#总目标&quot; class=&quot;headerlink&quot; title=&quot;总目标&quot;&gt;&lt;/a&gt;总目标&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;可持续的不断进步&lt;/li&gt;
-&lt;li&gt;达到能够考上的标准&lt;/li&gt;
-&lt;li&gt;不要太难操作，时间过长（5min以内）&lt;/li&gt;
-&lt;/ol&gt;
-    
-    </summary>
-    
-    
-      <category term="RPRules" scheme="https://leviyan1998.github.io/categories/RPRules/"/>
-    
+      <category term="for own use" scheme="https://leviyanx.github.io/tags/for-own-use/"/>
     
   </entry>
   
   <entry>
-    <title>RPRule-202005</title>
-    <link href="https://leviyan1998.github.io/2020/06/04/RPRules/RPRule-202005/"/>
-    <id>https://leviyan1998.github.io/2020/06/04/RPRules/RPRule-202005/</id>
-    <published>2020-06-04T04:02:17.000Z</published>
-    <updated>2020-06-04T04:02:17.000Z</updated>
+    <title>rime</title>
+    <link href="https://leviyanx.github.io/2020/06/12/tutorials/rime/"/>
+    <id>https://leviyanx.github.io/2020/06/12/tutorials/rime/</id>
+    <published>2020-06-12T15:38:33.000Z</published>
+    <updated>2020-07-13T03:29:50.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h1><h2 id="总目标"><a href="#总目标" class="headerlink" title="总目标"></a>总目标</h2><ol><li>可持续的不断进步</li><li>达到能够考上的标准</li><li>不要太难操作，时间过长（5min以内）</li></ol><a id="more"></a><h2 id="本月目标"><a href="#本月目标" class="headerlink" title="本月目标"></a>本月目标</h2><h3 id="数学"><a href="#数学" class="headerlink" title="数学"></a>数学</h3><ol><li>一轮复习，打好基础</li></ol><h3 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h3><ol><li>单词基础</li></ol><h3 id="专业"><a href="#专业" class="headerlink" title="专业"></a>专业</h3><ol><li>离散数学</li><li>算法和数据结构</li></ol><h1 id="奖惩"><a href="#奖惩" class="headerlink" title="奖惩"></a>奖惩</h1><h2 id="奖励选项"><a href="#奖励选项" class="headerlink" title="奖励选项"></a>奖励选项</h2><h3 id="时间类"><a href="#时间类" class="headerlink" title="时间类"></a>时间类</h3><ul><li><input disabled="" type="checkbox"> 个人网站<ul><li><input disabled="" type="checkbox"> 安装hexo，上传博客</li><li><input disabled="" type="checkbox"> 项目：推荐（public）</li></ul></li><li><input checked="" disabled="" type="checkbox"> 完善windows下的vim，如果可以，就neovim。<ul><li><input checked="" disabled="" type="checkbox"> 整合init.nvim（win &amp; linux）</li></ul></li><li><input disabled="" type="checkbox"> 了解vim/neovim 的写法。</li><li><input disabled="" type="checkbox"> 完善learning记录<ul><li><input disabled="" type="checkbox"> 可视化界面</li><li><input disabled="" type="checkbox"> 增加<strong>章节回顾程度</strong>功能</li></ul></li><li><input checked="" disabled="" type="checkbox"> 修改 leviyan1998.github.io</li><li><input checked="" disabled="" type="checkbox"> 奖励机制程序</li><li><input disabled="" type="checkbox"> rime<ul><li><input checked="" disabled="" type="checkbox"> linux os</li><li><input checked="" disabled="" type="checkbox"> win os</li><li><input disabled="" type="checkbox"> 多平台同步问题的解决方案</li></ul></li><li><input checked="" disabled="" type="checkbox"> 学习双拼（自然码）</li><li><input disabled="" type="checkbox"> 整理时间数据</li></ul><h3 id="金钱类"><a href="#金钱类" class="headerlink" title="金钱类"></a>金钱类</h3><ul><li><input disabled="" type="checkbox"> 一杯奶茶</li></ul><h2 id="奖惩规则"><a href="#奖惩规则" class="headerlink" title="奖惩规则"></a>奖惩规则</h2><h3 id="奖惩时间"><a href="#奖惩时间" class="headerlink" title="奖惩时间"></a>奖惩时间</h3><p>周六</p><h3 id="硬性奖励"><a href="#硬性奖励" class="headerlink" title="硬性奖励"></a>硬性奖励</h3><h4 id="时间"><a href="#时间" class="headerlink" title="时间"></a>时间</h4><p>周六上午，截止时间 12：30</p><h4 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h4><ul><li>补觉（推荐），多睡1~ 2h</li><li>休闲</li><li>散步</li><li>爱好</li></ul><h3 id="评分兑换规则"><a href="#评分兑换规则" class="headerlink" title="评分兑换规则"></a>评分兑换规则</h3><p>开始时间：吃完午饭</p><h4 id="奖励兑换"><a href="#奖励兑换" class="headerlink" title="奖励兑换"></a>奖励兑换</h4><p><strong>上平</strong></p><ul><li>+1h  <strong>/</strong>  ￥2</li></ul><p><strong>上</strong></p><ul><li>+2h  <strong>/</strong>  ￥4</li></ul><h4 id="惩罚兑换（如果本周被减完，累计到下周）"><a href="#惩罚兑换（如果本周被减完，累计到下周）" class="headerlink" title="惩罚兑换（如果本周被减完，累计到下周）"></a>惩罚兑换（如果本周被减完，累计到下周）</h4><p><strong>下平</strong></p><ul><li>-30min  <strong>/</strong>  ￥1</li></ul><p><strong>下</strong></p><ul><li>-1h  /  -￥2</li></ul><h2 id="补课措施"><a href="#补课措施" class="headerlink" title="补课措施"></a>补课措施</h2><p>补课时间</p><ul><li>奖励时间执行完毕（如果本周没有奖励时间，直接执行）</li></ul><p>补课内容</p><ul><li>（<strong>首选</strong>）基础类</li><li>其他</li></ul><h2 id="特别声明"><a href="#特别声明" class="headerlink" title="特别声明"></a>特别声明</h2><p>即便是周六也要遵守<strong>生活保证</strong>的规则。</p><h2 id="奖惩记录"><a href="#奖惩记录" class="headerlink" title="奖惩记录"></a>奖惩记录</h2><table><thead><tr><th>w2</th><th>w3</th><th>w4</th></tr></thead><tbody><tr><td>null</td><td>“下平”·2</td><td>0</td></tr></tbody></table><h1 id="评分"><a href="#评分" class="headerlink" title="评分"></a>评分</h1><h2 id="如何评分（动态变化）"><a href="#如何评分（动态变化）" class="headerlink" title="如何评分（动态变化）"></a>如何评分（动态变化）</h2><h3 id="总分值"><a href="#总分值" class="headerlink" title="总分值"></a>总分值</h3><ul><li>5（100%）</li></ul><h3 id="如何评分"><a href="#如何评分" class="headerlink" title="如何评分"></a>如何评分</h3><ul><li>90%+，即4.5+（上）</li><li>80%+，即4.0+（上平）</li><li>70%+，即3.5+（中）</li><li>60%+，即3+（下平）</li><li>60%-，即3.0-（下）</li></ul><h3 id="组成部分"><a href="#组成部分" class="headerlink" title="组成部分"></a>组成部分</h3><h4 id="生活保证：3（60-）"><a href="#生活保证：3（60-）" class="headerlink" title="生活保证：3（60%）"></a>生活保证：3（60%）</h4><ul><li>早起：15%</li><li>早睡：25%<ul><li>a日的分数，算到a+1日上。</li><li>开启连坐模式：如果今日晚睡，将会在今日<strong>已结算</strong>的分数上，<strong>继续扣分</strong>。</li></ul></li><li>锻炼：20%</li></ul><h4 id="决定奖励：2（40-）"><a href="#决定奖励：2（40-）" class="headerlink" title="决定奖励：2（40%）"></a>决定奖励：2（40%）</h4><ul><li>数：20%<ul><li>4~5h（由整体状态好坏决定）</li></ul></li><li>英：10%<ul><li>单词（7%）</li><li>阅读（3%）</li></ul></li><li>专业：10%<ul><li><del>专业相关的思考（5%）</del></li><li>读书（5%）</li><li>补课（5%）任选：<ul><li>算法和数据结构（1h）</li><li>离散数据</li><li>csapp</li></ul></li></ul></li></ul><h4 id="额外奖励（无上限）"><a href="#额外奖励（无上限）" class="headerlink" title="额外奖励（无上限）"></a>额外奖励（无上限）</h4><ul><li>不浪费时间：（10%）(待实验)</li><li>不得不做的任务<ul><li>分数等于<strong>原本要执行的任务</strong>的分值</li></ul></li><li><input checked="" disabled="" type="checkbox"> 写一个奖励机制的程序（10%）</li></ul><h4 id="额外惩罚（无上限）"><a href="#额外惩罚（无上限）" class="headerlink" title="额外惩罚（无上限）"></a>额外惩罚（无上限）</h4><ul><li>浪费时间（10%）</li></ul><h1 id="每日任务"><a href="#每日任务" class="headerlink" title="每日任务"></a>每日任务</h1><p>自2020-05-25，引入<strong>每日任务</strong>始，状态迅速提升，效果显著；特此记录<strong>每日任务</strong>的制定规则&amp;注意事项。</p>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>Warning: 这篇文章还没有被完成，会有错误。</p></blockquote><h3 id="同步"><a href="#同步" class="headerlink" title="同步"></a>同步</h3><p><strong>说明</strong></p><p><code>sync</code>内放几个系统的rime同步文件夹（其中包含了各自的 <code>userdb.txt</code>）。同步后，会把其他 <code>userdb.txt</code>的数据同步到当前系统的同步文件夹内的 <code>userdb.txt</code>中；此外，用户文件夹内的 用户数据也会被更新。但是，<strong>用户配置不会被更新</strong>。</p><p>即，用户数据同步是双向的，用户配置是单项的。</p><hr><p>schema可以直接放到用户文件夹，不用放到程序所在文件夹。</p><hr><h3 id="时间辅助功能"><a href="#时间辅助功能" class="headerlink" title="时间辅助功能"></a>时间辅助功能</h3><h4 id="PC端"><a href="#PC端" class="headerlink" title="PC端"></a>PC端</h4><ol><li>使用date.lua实现，把<code>date.lua</code>文件放到用户文件夹下。</li><li>在 double_pinyin.scheme.yaml（你用的那个输入法）中添加以下内容。（一定要在scheme中添加，不是custom！这个坑了我2个小时，专门记录一下）<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">engine:</span></span><br><span class="line">  <span class="attr">translators:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">lua_translator@date_translator</span> <span class="comment"># 这部分是添加的内容</span></span><br></pre></td></tr></table></figure></li></ol><h4 id="移动端（同文输入法）"><a href="#移动端（同文输入法）" class="headerlink" title="移动端（同文输入法）"></a>移动端（同文输入法）</h4><blockquote><p>一键输出「日期+时间」<br>以预设26键键盘为例：</p></blockquote><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># trime.custom.yaml</span></span><br><span class="line"><span class="attr">patch:</span></span><br><span class="line"><span class="comment"># 参考trime.yaml内置的date键，新建一个按键date_time</span></span><br><span class="line">  <span class="attr">"preset_keys/date_time":</span></span><br><span class="line">    <span class="attr">command:</span> <span class="string">date</span></span><br><span class="line">    <span class="attr">label:</span> <span class="string">time</span></span><br><span class="line">    <span class="attr">option:</span> <span class="string">"yyyy-MM-dd HH:mm:ss"</span> <span class="comment">#通过`option`参数控制输出的日期和时间格式</span></span><br><span class="line">    <span class="attr">send:</span> <span class="string">function</span></span><br><span class="line">    </span><br><span class="line">  <span class="comment"># 用data_time替换原预设26键键盘中的time</span></span><br><span class="line">  <span class="string">"preset_keyboards/qwerty/keys/@26/long_click"</span><span class="string">:</span> <span class="string">date_tim</span></span><br></pre></td></tr></table></figure><p>※ 常用的时间选项： y 年， M 月， d 日， h 时（12小时制）， H 时（24小时制）， m 分， s 秒， S 毫秒， E 星期， D 一年中的第几天， w 一年<br>中第几个星期， a 上午/下午， z 时区</p>]]></content>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;目标&quot;&gt;&lt;a href=&quot;#目标&quot; class=&quot;headerlink&quot; title=&quot;目标&quot;&gt;&lt;/a&gt;目标&lt;/h1&gt;&lt;h2 id=&quot;总目标&quot;&gt;&lt;a href=&quot;#总目标&quot; class=&quot;headerlink&quot; title=&quot;总目标&quot;&gt;&lt;/a&gt;总目标&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;可持续的不断进步&lt;/li&gt;
-&lt;li&gt;达到能够考上的标准&lt;/li&gt;
-&lt;li&gt;不要太难操作，时间过长（5min以内）&lt;/li&gt;
-&lt;/ol&gt;
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;Warning: 这篇文章还没有被完成，会有错误。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;同步&quot;&gt;&lt;a href=&quot;#同步&quot; class=&quot;headerlink&quot; title=&quot;同步&quot;&gt;&lt;/a&gt;同步&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;说明
+      
     
     </summary>
     
     
-      <category term="RPRules" scheme="https://leviyan1998.github.io/categories/RPRules/"/>
+      <category term="tutorials" scheme="https://leviyanx.github.io/categories/tutorials/"/>
     
+    
+      <category term="for own use" scheme="https://leviyanx.github.io/tags/for-own-use/"/>
+    
+      <category term="input method" scheme="https://leviyanx.github.io/tags/input-method/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git</title>
+    <link href="https://leviyanx.github.io/2020/06/10/tutorials/git/"/>
+    <id>https://leviyanx.github.io/2020/06/10/tutorials/git/</id>
+    <published>2020-06-10T10:54:18.000Z</published>
+    <updated>2020-07-13T03:28:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>Warning: This article is not completed.</p></blockquote><h2 id="often-used"><a href="#often-used" class="headerlink" title="often used"></a>often used</h2><h3 id="special-use"><a href="#special-use" class="headerlink" title="special use"></a>special use</h3><p>cancel tracking a file<br><code>git rm -r --cached file</code>, not delete local file<br><code>git rm -r -f</code>, delete local file</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;Warning: This article is not completed.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;often-used&quot;&gt;&lt;a href=&quot;#often-used&quot; class=&quot;headerlink&quot; title
+      
+    
+    </summary>
+    
+    
+      <category term="tutorials" scheme="https://leviyanx.github.io/categories/tutorials/"/>
+    
+    
+      <category term="for own use" scheme="https://leviyanx.github.io/tags/for-own-use/"/>
+    
+      <category term="git" scheme="https://leviyanx.github.io/tags/git/"/>
     
   </entry>
   
   <entry>
     <title>hexo</title>
-    <link href="https://leviyan1998.github.io/2020/06/04/tutorials/hexo/"/>
-    <id>https://leviyan1998.github.io/2020/06/04/tutorials/hexo/</id>
+    <link href="https://leviyanx.github.io/2020/06/04/tutorials/hexo/"/>
+    <id>https://leviyanx.github.io/2020/06/04/tutorials/hexo/</id>
     <published>2020-06-04T04:02:17.000Z</published>
-    <updated>2020-06-10T04:25:33.000Z</updated>
+    <updated>2020-07-13T03:29:15.000Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><a id="more"></a><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p><hr><p>More command: <a href="https://hexo.io/zh-cn/docs/commands.html" target="_blank" rel="noopener">commands</a></p>]]></content>
     
@@ -179,10 +333,44 @@
     </summary>
     
     
-      <category term="tutorials" scheme="https://leviyan1998.github.io/categories/tutorials/"/>
+      <category term="tutorials" scheme="https://leviyanx.github.io/categories/tutorials/"/>
     
     
-      <category term="memo" scheme="https://leviyan1998.github.io/tags/memo/"/>
+      <category term="for own use" scheme="https://leviyanx.github.io/tags/for-own-use/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>archlinux 解决wine系应用（如tim、wps）无法使用fcitx输入中文的问题</title>
+    <link href="https://leviyanx.github.io/2020/04/06/problems/archlinux%20%E8%A7%A3%E5%86%B3wine%E7%B3%BB%E5%BA%94%E7%94%A8%EF%BC%88%E5%A6%82tim%E3%80%81wps%EF%BC%89%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8fcitx%E8%BE%93%E5%85%A5%E4%B8%AD%E6%96%87%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>https://leviyanx.github.io/2020/04/06/problems/archlinux%20%E8%A7%A3%E5%86%B3wine%E7%B3%BB%E5%BA%94%E7%94%A8%EF%BC%88%E5%A6%82tim%E3%80%81wps%EF%BC%89%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8fcitx%E8%BE%93%E5%85%A5%E4%B8%AD%E6%96%87%E7%9A%84%E9%97%AE%E9%A2%98/</id>
+    <published>2020-04-06T02:35:21.000Z</published>
+    <updated>2020-06-21T02:35:21.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="我的系统"><a href="#我的系统" class="headerlink" title="我的系统"></a>我的系统</h2><ul><li>archlinxu</li><li>i3wm</li></ul><h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p>在应用程序对应的<strong>启动文件</strong>中加入以下代码</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">export XMODIFIERS&#x3D;&quot;@im&#x3D;fcitx&quot;</span><br><span class="line"></span><br><span class="line">export GTK_IM_MODULE&#x3D;&quot;fcitx&quot;</span><br><span class="line"></span><br><span class="line">export QT_IM_MODULE&#x3D;&quot;fcitx&quot;</span><br></pre></td></tr></table></figure><p><strong>已解决应用：deepin-tim（deepin.com.qq.office）、wps</strong>（因为我就用了这两个，但方法是通用的）</p><h3 id="如何找到应用对应的启动文件呢？"><a href="#如何找到应用对应的启动文件呢？" class="headerlink" title="如何找到应用对应的启动文件呢？"></a>如何找到应用对应的启动文件呢？</h3><h4 id="方法一（如果你的文件管理器是-pcmancf）"><a href="#方法一（如果你的文件管理器是-pcmancf）" class="headerlink" title="方法一（如果你的文件管理器是 pcmancf）"></a>方法一（如果你的文件管理器是 pcmancf）</h4><p>打开 <code>pcmancf</code>，进入 <code>Applications</code> 那一栏，找到对应的应用程序图标，右击查看属性。<code>Desktop Entry</code> 中 <code>command</code> 那一栏就有启动文件的位置。</p><h4 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h4><p>进入路径 <code>/usr/share/applications/</code>，找到你想要修改的应用程序对应的 <code>.desktop</code> 文件（以tim举例，就是找到 <code>deepin.com.qq.office.desktop</code> 文件）。</p><p>查看文件，其中 <code>Exec</code> 一行就是文件位置（比如tim： <code>Exec=&quot;/opt/deepinwine/apps/Deepin-TIM/run.sh&quot; -u %u</code>，那么启动文件就是 <code>/opt/deepinwine/apps/Deepin-TIM/run.sh</code>，修改它就行了）。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;我的系统&quot;&gt;&lt;a href=&quot;#我的系统&quot; class=&quot;headerlink&quot; title=&quot;我的系统&quot;&gt;&lt;/a&gt;我的系统&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;archlinxu&lt;/li&gt;
+&lt;li&gt;i3wm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;解决方法&quot;&gt;&lt;a href
+      
+    
+    </summary>
+    
+    
+      <category term="problems" scheme="https://leviyanx.github.io/categories/problems/"/>
+    
+    
+      <category term="archlinux" scheme="https://leviyanx.github.io/tags/archlinux/"/>
+    
+      <category term="wine" scheme="https://leviyanx.github.io/tags/wine/"/>
+    
+      <category term="input method" scheme="https://leviyanx.github.io/tags/input-method/"/>
     
   </entry>
   

@@ -14,7 +14,7 @@
 
 
 
-<title>SwitchyOmega | Levi&#39;s Blog</title>
+<title>ssh | Levi&#39;s Blog</title>
 
 
 
@@ -110,11 +110,73 @@
             <div class="container">
     
     
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
 
     
     <article class="post-wrap">
         <header class="post-header">
-            <h1 class="post-title">SwitchyOmega</h1>
+            <h1 class="post-title">ssh</h1>
             
                 <div class="post-meta">
                     
@@ -123,13 +185,13 @@
 
                     
                         <span class="post-time">
-                        Date: <a href="#">June 18, 2020&nbsp;&nbsp;17:12:01</a>
+                        Date: <a href="#">July 12, 2020&nbsp;&nbsp;18:06:39</a>
                         </span>
                     
                     
                     
                         <span class="post-time">
-                        Updated:<a href="#">July 13, 2020&nbsp;&nbsp;11:30:44</a>
+                        Updated:<a href="#">July 12, 2020&nbsp;&nbsp;18:06:39</a>
                         </span>
                     
                     
@@ -146,11 +208,9 @@
         </header>
 
         <div class="post-content">
-            <p>reference</p>
-<blockquote>
-<p><a href="https://www.cnblogs.com/LyndonMario/p/9326176.html" target="_blank" rel="noopener">chrome神插件之：SwitchyOmega的安装设置</a></p>
-</blockquote>
-<p><code>rule list url</code>: <a href="https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt" target="_blank" rel="noopener">https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt</a></p>
+            <h1 id="ssh"><a href="#ssh" class="headerlink" title="ssh"></a>ssh</h1><h3 id="generate-a-new-ssh"><a href="#generate-a-new-ssh" class="headerlink" title="generate a new ssh"></a>generate a new ssh</h3><p>open bash or powershell, and run</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -b 4096 -C <span class="string">"your_email@example.com"</span></span><br></pre></td></tr></table></figure>
+<p><code>your_email@example.com</code> use your Github email best.</p>
 
         </div>
 
@@ -165,7 +225,7 @@
                 
                     <p class="copyright-item">
                         <span>Permalink:</span>
-                        <span><a href="https://leviyanx.github.io/2020/06/18/tutorials/SwitchyOmega/">https://leviyanx.github.io/2020/06/18/tutorials/SwitchyOmega/</a></span>
+                        <span><a href="https://leviyanx.github.io/2020/07/12/tutorials/ssh/">https://leviyanx.github.io/2020/07/12/tutorials/ssh/</a></span>
                     </p>
                 
                 
@@ -191,9 +251,9 @@
                     
                         <a href="/tags/for-own-use/"># for own use</a>
                     
-                        <a href="/tags/network/"># network</a>
+                        <a href="/tags/git/"># git</a>
                     
-                        <a href="/tags/nice-plugin/"># nice plugin</a>
+                        <a href="/tags/ssh/"># ssh</a>
                     
                         
                 </span>
@@ -206,10 +266,10 @@
         </section>
         <section class="post-nav">
             
-                <a class="prev" rel="prev" href="/2020/06/18/tutorials/chrome/">chrome</a>
+                <a class="prev" rel="prev" href="/2020/07/12/tutorials/ipv6/">ipv6</a>
             
             
-            <a class="next" rel="next" href="/2020/06/12/tutorials/useful-tutorial-collection/">useful tutorial collection</a>
+            <a class="next" rel="next" href="/2020/06/20/problems/%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90%E6%B1%A1%E6%9F%93%E9%97%AE%E9%A2%98%E5%90%88%E9%9B%86/">域名解析污染问题合集</a>
             
         </section>
 

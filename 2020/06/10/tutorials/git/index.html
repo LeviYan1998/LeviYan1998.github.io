@@ -14,7 +14,7 @@
 
 
 
-<title>SwitchyOmega | Levi&#39;s Blog</title>
+<title>git | Levi&#39;s Blog</title>
 
 
 
@@ -110,11 +110,73 @@
             <div class="container">
     
     
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
 
     
     <article class="post-wrap">
         <header class="post-header">
-            <h1 class="post-title">SwitchyOmega</h1>
+            <h1 class="post-title">git</h1>
             
                 <div class="post-meta">
                     
@@ -123,13 +185,13 @@
 
                     
                         <span class="post-time">
-                        Date: <a href="#">June 18, 2020&nbsp;&nbsp;17:12:01</a>
+                        Date: <a href="#">June 10, 2020&nbsp;&nbsp;18:54:18</a>
                         </span>
                     
                     
                     
                         <span class="post-time">
-                        Updated:<a href="#">July 13, 2020&nbsp;&nbsp;11:30:44</a>
+                        Updated:<a href="#">July 13, 2020&nbsp;&nbsp;11:28:47</a>
                         </span>
                     
                     
@@ -146,11 +208,10 @@
         </header>
 
         <div class="post-content">
-            <p>reference</p>
-<blockquote>
-<p><a href="https://www.cnblogs.com/LyndonMario/p/9326176.html" target="_blank" rel="noopener">chrome神插件之：SwitchyOmega的安装设置</a></p>
+            <blockquote>
+<p>Warning: This article is not completed.</p>
 </blockquote>
-<p><code>rule list url</code>: <a href="https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt" target="_blank" rel="noopener">https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt</a></p>
+<h2 id="often-used"><a href="#often-used" class="headerlink" title="often used"></a>often used</h2><h3 id="special-use"><a href="#special-use" class="headerlink" title="special use"></a>special use</h3><p>cancel tracking a file<br><code>git rm -r --cached file</code>, not delete local file<br><code>git rm -r -f</code>, delete local file</p>
 
         </div>
 
@@ -165,7 +226,7 @@
                 
                     <p class="copyright-item">
                         <span>Permalink:</span>
-                        <span><a href="https://leviyanx.github.io/2020/06/18/tutorials/SwitchyOmega/">https://leviyanx.github.io/2020/06/18/tutorials/SwitchyOmega/</a></span>
+                        <span><a href="https://leviyanx.github.io/2020/06/10/tutorials/git/">https://leviyanx.github.io/2020/06/10/tutorials/git/</a></span>
                     </p>
                 
                 
@@ -191,9 +252,7 @@
                     
                         <a href="/tags/for-own-use/"># for own use</a>
                     
-                        <a href="/tags/network/"># network</a>
-                    
-                        <a href="/tags/nice-plugin/"># nice plugin</a>
+                        <a href="/tags/git/"># git</a>
                     
                         
                 </span>
@@ -206,10 +265,10 @@
         </section>
         <section class="post-nav">
             
-                <a class="prev" rel="prev" href="/2020/06/18/tutorials/chrome/">chrome</a>
+                <a class="prev" rel="prev" href="/2020/06/12/tutorials/rime/">rime</a>
             
             
-            <a class="next" rel="next" href="/2020/06/12/tutorials/useful-tutorial-collection/">useful tutorial collection</a>
+            <a class="next" rel="next" href="/2020/06/04/tutorials/hexo/">hexo</a>
             
         </section>
 

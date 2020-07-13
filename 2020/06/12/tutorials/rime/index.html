@@ -14,7 +14,7 @@
 
 
 
-<title>useful tutorial collection | Levi&#39;s Blog</title>
+<title>rime | Levi&#39;s Blog</title>
 
 
 
@@ -176,7 +176,7 @@
     
     <article class="post-wrap">
         <header class="post-header">
-            <h1 class="post-title">useful tutorial collection</h1>
+            <h1 class="post-title">rime</h1>
             
                 <div class="post-meta">
                     
@@ -185,13 +185,13 @@
 
                     
                         <span class="post-time">
-                        Date: <a href="#">June 12, 2020&nbsp;&nbsp;23:43:19</a>
+                        Date: <a href="#">June 12, 2020&nbsp;&nbsp;23:38:33</a>
                         </span>
                     
                     
                     
                         <span class="post-time">
-                        Updated:<a href="#">July 13, 2020&nbsp;&nbsp;11:31:18</a>
+                        Updated:<a href="#">July 13, 2020&nbsp;&nbsp;11:29:50</a>
                         </span>
                     
                     
@@ -209,20 +209,25 @@
 
         <div class="post-content">
             <blockquote>
-<p>这篇文章会持续更新。</p>
+<p>Warning: 这篇文章还没有被完成，会有错误。</p>
 </blockquote>
-<h3 id="script-language"><a href="#script-language" class="headerlink" title="script language"></a>script language</h3><p>vimscript</p>
-<ul>
-<li><a href="http://www.w3cschool.cn/vim/ljkpbozt.html" target="_blank" rel="noopener">笨方法学Vimscript</a></li>
-</ul>
-<p>bash</p>
-<ul>
-<li><a href="https://wangdoc.com/bash/" target="_blank" rel="noopener">Bash 脚本教程-阮一峰</a></li>
-</ul>
-<p>git </p>
-<ul>
-<li><a href="https://www.liaoxuefeng.com/wiki/896043488029600" target="_blank" rel="noopener">git教程-廖雪峰</a></li>
-</ul>
+<h3 id="同步"><a href="#同步" class="headerlink" title="同步"></a>同步</h3><p><strong>说明</strong></p>
+<p><code>sync</code>内放几个系统的rime同步文件夹（其中包含了各自的 <code>userdb.txt</code>）。同步后，会把其他 <code>userdb.txt</code>的数据同步到当前系统的同步文件夹内的 <code>userdb.txt</code>中；此外，用户文件夹内的 用户数据也会被更新。但是，<strong>用户配置不会被更新</strong>。</p>
+<p>即，用户数据同步是双向的，用户配置是单项的。</p>
+<hr>
+<p>schema可以直接放到用户文件夹，不用放到程序所在文件夹。</p>
+<hr>
+<h3 id="时间辅助功能"><a href="#时间辅助功能" class="headerlink" title="时间辅助功能"></a>时间辅助功能</h3><h4 id="PC端"><a href="#PC端" class="headerlink" title="PC端"></a>PC端</h4><ol>
+<li>使用date.lua实现，把<code>date.lua</code>文件放到用户文件夹下。</li>
+<li>在 double_pinyin.scheme.yaml（你用的那个输入法）中添加以下内容。（一定要在scheme中添加，不是custom！这个坑了我2个小时，专门记录一下）<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">engine:</span></span><br><span class="line">  <span class="attr">translators:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">lua_translator@date_translator</span> <span class="comment"># 这部分是添加的内容</span></span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<h4 id="移动端（同文输入法）"><a href="#移动端（同文输入法）" class="headerlink" title="移动端（同文输入法）"></a>移动端（同文输入法）</h4><blockquote>
+<p>一键输出「日期+时间」<br>以预设26键键盘为例：</p>
+</blockquote>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># trime.custom.yaml</span></span><br><span class="line"><span class="attr">patch:</span></span><br><span class="line"><span class="comment"># 参考trime.yaml内置的date键，新建一个按键date_time</span></span><br><span class="line">  <span class="attr">"preset_keys/date_time":</span></span><br><span class="line">    <span class="attr">command:</span> <span class="string">date</span></span><br><span class="line">    <span class="attr">label:</span> <span class="string">time</span></span><br><span class="line">    <span class="attr">option:</span> <span class="string">"yyyy-MM-dd HH:mm:ss"</span> <span class="comment">#通过`option`参数控制输出的日期和时间格式</span></span><br><span class="line">    <span class="attr">send:</span> <span class="string">function</span></span><br><span class="line">    </span><br><span class="line">  <span class="comment"># 用data_time替换原预设26键键盘中的time</span></span><br><span class="line">  <span class="string">"preset_keyboards/qwerty/keys/@26/long_click"</span><span class="string">:</span> <span class="string">date_tim</span></span><br></pre></td></tr></table></figure>
+<p>※ 常用的时间选项： y 年， M 月， d 日， h 时（12小时制）， H 时（24小时制）， m 分， s 秒， S 毫秒， E 星期， D 一年中的第几天， w 一年<br>中第几个星期， a 上午/下午， z 时区</p>
 
         </div>
 
@@ -237,7 +242,7 @@
                 
                     <p class="copyright-item">
                         <span>Permalink:</span>
-                        <span><a href="https://leviyanx.github.io/2020/06/12/tutorials/useful-tutorial-collection/">https://leviyanx.github.io/2020/06/12/tutorials/useful-tutorial-collection/</a></span>
+                        <span><a href="https://leviyanx.github.io/2020/06/12/tutorials/rime/">https://leviyanx.github.io/2020/06/12/tutorials/rime/</a></span>
                     </p>
                 
                 
@@ -263,6 +268,8 @@
                     
                         <a href="/tags/for-own-use/"># for own use</a>
                     
+                        <a href="/tags/input-method/"># input method</a>
+                    
                         
                 </span>
             </div>
@@ -274,10 +281,10 @@
         </section>
         <section class="post-nav">
             
-                <a class="prev" rel="prev" href="/2020/06/18/tutorials/SwitchyOmega/">SwitchyOmega</a>
+                <a class="prev" rel="prev" href="/2020/06/12/tutorials/useful-tutorial-collection/">useful tutorial collection</a>
             
             
-            <a class="next" rel="next" href="/2020/06/12/tutorials/rime/">rime</a>
+            <a class="next" rel="next" href="/2020/06/10/tutorials/git/">git</a>
             
         </section>
 
