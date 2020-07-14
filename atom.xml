@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://leviyanx.github.io/"/>
-  <updated>2020-07-12T10:09:42.000Z</updated>
+  <updated>2020-07-14T03:59:27.000Z</updated>
   <id>https://leviyanx.github.io/</id>
   
   <author>
@@ -15,6 +15,42 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>advanced maths/formula</title>
+    <link href="https://leviyanx.github.io/2020/07/14/advanced%20maths/formula/"/>
+    <id>https://leviyanx.github.io/2020/07/14/advanced%20maths/formula/</id>
+    <published>2020-07-14T03:59:27.000Z</published>
+    <updated>2020-07-14T03:59:27.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="无穷小"><a href="#无穷小" class="headerlink" title="无穷小"></a>无穷小</h3><table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>$sinx$</td><td>$x$</td></tr><tr><td>$tanx$</td><td>$x$</td></tr><tr><td>$arcsinx$</td><td>$x$</td></tr><tr><td>$arctanx$</td><td>$x$</td></tr><tr><td></td><td></td></tr><tr><td>$x-sinx$</td><td>$\frac{1}{6}{x^3}$</td></tr><tr><td>$x-arcsinx$</td><td>$-\frac{1}{6}{x^3}$</td></tr><tr><td>$x-arctanx$</td><td>$\frac{1}{3}{x^3}$</td></tr><tr><td>$x-tanx$</td><td>$-\frac{1}{3}{x^3}$</td></tr><tr><td></td><td></td></tr><tr><td>$ln(1+x)$</td><td>$x$</td></tr><tr><td>$e^x-1$</td><td>$x$</td></tr><tr><td>$a^x-2$</td><td>$xlna$</td></tr><tr><td></td><td></td></tr><tr><td>$1-cosx$</td><td>$\frac{1}{2}{x^2}$</td></tr><tr><td>$x-ln(1+x)$</td><td>$\frac{1}{2}{x^2}$</td></tr><tr><td>$(1+x)^\alpha-1$</td><td>$\alpha x$</td></tr></tbody></table>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;无穷小&quot;&gt;&lt;a href=&quot;#无穷小&quot; class=&quot;headerlink&quot; title=&quot;无穷小&quot;&gt;&lt;/a&gt;无穷小&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;
+      
+    
+    </summary>
+    
+    
+      <category term="advanced maths" scheme="https://leviyanx.github.io/categories/advanced-maths/"/>
+    
+    
+      <category term="for own use" scheme="https://leviyanx.github.io/tags/for-own-use/"/>
+    
+      <category term="need to remember" scheme="https://leviyanx.github.io/tags/need-to-remember/"/>
+    
+  </entry>
   
   <entry>
     <title>ipv6</title>
