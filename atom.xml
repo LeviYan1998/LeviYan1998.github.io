@@ -17,13 +17,13 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>advanced maths/formula</title>
-    <link href="https://leviyanx.github.io/2020/07/14/advanced%20maths/formula/"/>
-    <id>https://leviyanx.github.io/2020/07/14/advanced%20maths/formula/</id>
+    <title>Formula</title>
+    <link href="https://leviyanx.github.io/2020/07/14/advanced-maths/formula/"/>
+    <id>https://leviyanx.github.io/2020/07/14/advanced-maths/formula/</id>
     <published>2020-07-14T03:59:27.000Z</published>
     <updated>2020-07-14T03:59:27.000Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="无穷小"><a href="#无穷小" class="headerlink" title="无穷小"></a>无穷小</h3><table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>$sinx$</td><td>$x$</td></tr><tr><td>$tanx$</td><td>$x$</td></tr><tr><td>$arcsinx$</td><td>$x$</td></tr><tr><td>$arctanx$</td><td>$x$</td></tr><tr><td></td><td></td></tr><tr><td>$x-sinx$</td><td>$\frac{1}{6}{x^3}$</td></tr><tr><td>$x-arcsinx$</td><td>$-\frac{1}{6}{x^3}$</td></tr><tr><td>$x-arctanx$</td><td>$\frac{1}{3}{x^3}$</td></tr><tr><td>$x-tanx$</td><td>$-\frac{1}{3}{x^3}$</td></tr><tr><td></td><td></td></tr><tr><td>$ln(1+x)$</td><td>$x$</td></tr><tr><td>$e^x-1$</td><td>$x$</td></tr><tr><td>$a^x-2$</td><td>$xlna$</td></tr><tr><td></td><td></td></tr><tr><td>$1-cosx$</td><td>$\frac{1}{2}{x^2}$</td></tr><tr><td>$x-ln(1+x)$</td><td>$\frac{1}{2}{x^2}$</td></tr><tr><td>$(1+x)^\alpha-1$</td><td>$\alpha x$</td></tr></tbody></table>]]></content>
+    <content type="html"><![CDATA[<h3 id="无穷小"><a href="#无穷小" class="headerlink" title="无穷小"></a>无穷小</h3><table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>$sinx$</td><td>$x$</td></tr><tr><td>$tanx$</td><td>$x$</td></tr><tr><td>$arcsinx$</td><td>$x$</td></tr><tr><td>$arctanx$</td><td>$x$</td></tr><tr><td></td><td></td></tr><tr><td>$x-sinx$</td><td>$\frac{1}{6}{x^3}$</td></tr><tr><td>$x-arcsinx$</td><td>$-\frac{1}{6}{x^3}$</td></tr><tr><td>$x-arctanx$</td><td>$\frac{1}{3}{x^3}$</td></tr><tr><td>$x-tanx$</td><td>$-\frac{1}{3}{x^3}$</td></tr><tr><td></td><td></td></tr><tr><td>$ln(1+x)$</td><td>$x$</td></tr><tr><td>$e^x-1$</td><td>$x$</td></tr><tr><td>$a^x-1$</td><td>$xlna$</td></tr><tr><td></td><td></td></tr><tr><td>$1-cosx$</td><td>$\frac{1}{2}{x^2}$</td></tr><tr><td>$x-ln(1+x)$</td><td>$\frac{1}{2}{x^2}$</td></tr><tr><td>$(1+x)^\alpha-1$</td><td>$\alpha x$</td></tr></tbody></table>]]></content>
     
     <summary type="html">
     
@@ -111,36 +111,6 @@
   </entry>
   
   <entry>
-    <title>域名解析污染问题合集</title>
-    <link href="https://leviyanx.github.io/2020/06/20/problems/%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90%E6%B1%A1%E6%9F%93%E9%97%AE%E9%A2%98%E5%90%88%E9%9B%86/"/>
-    <id>https://leviyanx.github.io/2020/06/20/problems/%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90%E6%B1%A1%E6%9F%93%E9%97%AE%E9%A2%98%E5%90%88%E9%9B%86/</id>
-    <published>2020-06-20T06:30:39.000Z</published>
-    <updated>2020-07-13T03:31:57.000Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="GitHub的raw-githubusercontent-com域名解析被污染"><a href="#GitHub的raw-githubusercontent-com域名解析被污染" class="headerlink" title="GitHub的raw.githubusercontent.com域名解析被污染"></a>GitHub的raw.githubusercontent.com域名解析被污染</h3><p><strong>现象</strong>：下载文件的时候出现：<code>Failed to connect to raw.githubusercontent.com port 443: Connection refused</code>。</p><p><strong>解决办法</strong>：修改host</p><ol><li>编辑hosts<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo vim &#x2F;etc&#x2F;hosts</span><br></pre></td></tr></table></figure></li><li>添加<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">199.232.28.133 raw.githubusercontent.com # 192.232.28.133 是真实ip</span><br></pre></td></tr></table></figure></li></ol><h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ul><li><a href="https://www.cnblogs.com/Dylansuns/p/12309847.html" target="_blank" rel="noopener">Failed to connect to raw.githubusercontent.com port 443: Connection refused</a></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;GitHub的raw-githubusercontent-com域名解析被污染&quot;&gt;&lt;a href=&quot;#GitHub的raw-githubusercontent-com域名解析被污染&quot; class=&quot;headerlink&quot; title=&quot;GitHub的raw.git
-      
-    
-    </summary>
-    
-    
-      <category term="problems" scheme="https://leviyanx.github.io/categories/problems/"/>
-    
-    
-      <category term="GFW" scheme="https://leviyanx.github.io/tags/GFW/"/>
-    
-      <category term="for own use" scheme="https://leviyanx.github.io/tags/for-own-use/"/>
-    
-      <category term="network" scheme="https://leviyanx.github.io/tags/network/"/>
-    
-  </entry>
-  
-  <entry>
     <title>scoop</title>
     <link href="https://leviyanx.github.io/2020/06/20/tutorials/scoop/"/>
     <id>https://leviyanx.github.io/2020/06/20/tutorials/scoop/</id>
@@ -167,6 +137,36 @@
       <category term="windows" scheme="https://leviyanx.github.io/tags/windows/"/>
     
       <category term="nice tools" scheme="https://leviyanx.github.io/tags/nice-tools/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Collection of DNS pollution solutions</title>
+    <link href="https://leviyanx.github.io/2020/06/20/problems/Collection-of-DNS-pollution-solutions/"/>
+    <id>https://leviyanx.github.io/2020/06/20/problems/Collection-of-DNS-pollution-solutions/</id>
+    <published>2020-06-20T06:30:39.000Z</published>
+    <updated>2020-07-14T05:19:05.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="GitHub的raw-githubusercontent-com域名解析被污染"><a href="#GitHub的raw-githubusercontent-com域名解析被污染" class="headerlink" title="GitHub的raw.githubusercontent.com域名解析被污染"></a>GitHub的raw.githubusercontent.com域名解析被污染</h3><h4 id="现象"><a href="#现象" class="headerlink" title="现象"></a>现象</h4><p>下载文件的时候出现：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Failed to connect to raw.githubusercontent.com port 443: Connection refused</span><br></pre></td></tr></table></figure><h4 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h4><p>方法一：修改host</p><ol><li>编辑hosts<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo vim /etc/hosts</span><br></pre></td></tr></table></figure></li><li>添加<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">199.232.28.133 raw.githubusercontent.com # 192.232.28.133 是真实ip</span><br></pre></td></tr></table></figure></li></ol><p>方法二：使用SwitchyOmega添加规则（需要代理）</p><h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ul><li><a href="https://www.cnblogs.com/Dylansuns/p/12309847.html" target="_blank" rel="noopener">Failed to connect to raw.githubusercontent.com port 443: Connection refused</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;GitHub的raw-githubusercontent-com域名解析被污染&quot;&gt;&lt;a href=&quot;#GitHub的raw-githubusercontent-com域名解析被污染&quot; class=&quot;headerlink&quot; title=&quot;GitHub的raw.git
+      
+    
+    </summary>
+    
+    
+      <category term="problems" scheme="https://leviyanx.github.io/categories/problems/"/>
+    
+    
+      <category term="GFW" scheme="https://leviyanx.github.io/tags/GFW/"/>
+    
+      <category term="for own use" scheme="https://leviyanx.github.io/tags/for-own-use/"/>
+    
+      <category term="network" scheme="https://leviyanx.github.io/tags/network/"/>
     
   </entry>
   
@@ -263,7 +263,7 @@
   </entry>
   
   <entry>
-    <title>useful tutorial collection</title>
+    <title>Collection of useful tutorials</title>
     <link href="https://leviyanx.github.io/2020/06/12/tutorials/useful-tutorial-collection/"/>
     <id>https://leviyanx.github.io/2020/06/12/tutorials/useful-tutorial-collection/</id>
     <published>2020-06-12T15:43:19.000Z</published>
