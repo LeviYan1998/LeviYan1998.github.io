@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://leviyanx.github.io/categories/index.html</loc>
+    
+    <lastmod>2020-07-14T10:21:19.607Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://leviyanx.github.io/tags/index.html</loc>
+    
+    <lastmod>2020-07-14T07:31:02.980Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://leviyanx.github.io/2020/06/20/problems/Collection-of-DNS-pollution-solutions/</loc>
     
     <lastmod>2020-07-14T05:19:05.000Z</lastmod>
@@ -89,20 +103,6 @@
     <loc>https://leviyanx.github.io/2020/06/18/tutorials/chrome/</loc>
     
     <lastmod>2020-06-18T10:03:29.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://leviyanx.github.io/category/index.html</loc>
-    
-    <lastmod>2020-06-07T13:42:04.885Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://leviyanx.github.io/tag/index.html</loc>
-    
-    <lastmod>2020-06-07T13:42:04.885Z</lastmod>
     
   </url>
   
