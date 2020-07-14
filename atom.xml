@@ -23,22 +23,11 @@
     <published>2020-07-14T03:59:27.000Z</published>
     <updated>2020-07-14T03:59:27.000Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="无穷小"><a href="#无穷小" class="headerlink" title="无穷小"></a>无穷小</h3><table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>$sinx$</td><td>$x$</td></tr><tr><td>$tanx$</td><td>$x$</td></tr><tr><td>$arcsinx$</td><td>$x$</td></tr><tr><td>$arctanx$</td><td>$x$</td></tr><tr><td></td><td></td></tr><tr><td>$x-sinx$</td><td>$\frac{1}{6}{x^3}$</td></tr><tr><td>$x-arcsinx$</td><td>$-\frac{1}{6}{x^3}$</td></tr><tr><td>$x-arctanx$</td><td>$\frac{1}{3}{x^3}$</td></tr><tr><td>$x-tanx$</td><td>$-\frac{1}{3}{x^3}$</td></tr><tr><td></td><td></td></tr><tr><td>$ln(1+x)$</td><td>$x$</td></tr><tr><td>$e^x-1$</td><td>$x$</td></tr><tr><td>$a^x-1$</td><td>$xlna$</td></tr><tr><td></td><td></td></tr><tr><td>$1-cosx$</td><td>$\frac{1}{2}{x^2}$</td></tr><tr><td>$x-ln(1+x)$</td><td>$\frac{1}{2}{x^2}$</td></tr><tr><td>$(1+x)^\alpha-1$</td><td>$\alpha x$</td></tr></tbody></table>]]></content>
+    <content type="html"><![CDATA[<h3 id="无穷小"><a href="#无穷小" class="headerlink" title="无穷小"></a>无穷小</h3><a id="more"></a><table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>$sinx$</td><td>$x$</td></tr><tr><td>$tanx$</td><td>$x$</td></tr><tr><td>$arcsinx$</td><td>$x$</td></tr><tr><td>$arctanx$</td><td>$x$</td></tr><tr><td></td><td></td></tr><tr><td>$x-sinx$</td><td>$\frac{1}{6}{x^3}$</td></tr><tr><td>$x-arcsinx$</td><td>$-\frac{1}{6}{x^3}$</td></tr><tr><td>$x-arctanx$</td><td>$\frac{1}{3}{x^3}$</td></tr><tr><td>$x-tanx$</td><td>$-\frac{1}{3}{x^3}$</td></tr><tr><td></td><td></td></tr><tr><td>$ln(1+x)$</td><td>$x$</td></tr><tr><td>$e^x-1$</td><td>$x$</td></tr><tr><td>$a^x-1$</td><td>$xlna$</td></tr><tr><td></td><td></td></tr><tr><td>$1-cosx$</td><td>$\frac{1}{2}{x^2}$</td></tr><tr><td>$x-ln(1+x)$</td><td>$\frac{1}{2}{x^2}$</td></tr><tr><td>$(1+x)^\alpha-1$</td><td>$\alpha x$</td></tr></tbody></table>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h3 id=&quot;无穷小&quot;&gt;&lt;a href=&quot;#无穷小&quot; class=&quot;headerlink&quot; title=&quot;无穷小&quot;&gt;&lt;/a&gt;无穷小&lt;/h3&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;
-      
+      &lt;h3 id=&quot;无穷小&quot;&gt;&lt;a href=&quot;#无穷小&quot; class=&quot;headerlink&quot; title=&quot;无穷小&quot;&gt;&lt;/a&gt;无穷小&lt;/h3&gt;
     
     </summary>
     
@@ -57,15 +46,15 @@
     <link href="https://leviyanx.github.io/2020/07/12/tutorials/ipv6/"/>
     <id>https://leviyanx.github.io/2020/07/12/tutorials/ipv6/</id>
     <published>2020-07-12T10:07:10.000Z</published>
-    <updated>2020-07-12T10:09:42.000Z</updated>
+    <updated>2020-07-14T11:15:46.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="ipv6"><a href="#ipv6" class="headerlink" title="ipv6"></a>ipv6</h1><p>检测宽带网络是否支持IPv6<br>很简单，用连接家中宽带的电脑打开浏览器，搜索 <a href="http://test-ipv6.com" target="_blank" rel="noopener">http://test-ipv6.com</a> ，进入IPv6测试页面，即可得到IPv6网络测试结果。</p>]]></content>
+    <content type="html"><![CDATA[<p>检测宽带网络是否支持IPv6<br>很简单，用连接家中宽带的电脑打开浏览器，搜索 <a href="http://test-ipv6.com" target="_blank" rel="noopener">http://test-ipv6.com</a> ，进入IPv6测试页面，即可得到IPv6网络测试结果。</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;ipv6&quot;&gt;&lt;a href=&quot;#ipv6&quot; class=&quot;headerlink&quot; title=&quot;ipv6&quot;&gt;&lt;/a&gt;ipv6&lt;/h1&gt;&lt;p&gt;检测宽带网络是否支持IPv6&lt;br&gt;很简单，用连接家中宽带的电脑打开浏览器，搜索 &lt;a href=&quot;http://test-
+        &lt;p&gt;检测宽带网络是否支持IPv6&lt;br&gt;很简单，用连接家中宽带的电脑打开浏览器，搜索 &lt;a href=&quot;http://test-ipv6.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://test-ipv6.com&lt;/a&gt; ，进入IPv6测试
       
     
     </summary>
@@ -87,13 +76,13 @@
     <published>2020-07-12T10:06:39.000Z</published>
     <updated>2020-07-12T10:06:39.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="ssh"><a href="#ssh" class="headerlink" title="ssh"></a>ssh</h1><h3 id="generate-a-new-ssh"><a href="#generate-a-new-ssh" class="headerlink" title="generate a new ssh"></a>generate a new ssh</h3><p>open bash or powershell, and run</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -b 4096 -C <span class="string">"your_email@example.com"</span></span><br></pre></td></tr></table></figure><p><code>your_email@example.com</code> use your Github email best.</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="generate-a-new-ssh"><a href="#generate-a-new-ssh" class="headerlink" title="generate a new ssh"></a>generate a new ssh</h3><p>open bash or powershell, and run</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -b 4096 -C <span class="string">"your_email@example.com"</span></span><br></pre></td></tr></table></figure><p><code>your_email@example.com</code> use your Github email best.</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;ssh&quot;&gt;&lt;a href=&quot;#ssh&quot; class=&quot;headerlink&quot; title=&quot;ssh&quot;&gt;&lt;/a&gt;ssh&lt;/h1&gt;&lt;h3 id=&quot;generate-a-new-ssh&quot;&gt;&lt;a href=&quot;#generate-a-new-ssh&quot; class=&quot;head
+        &lt;h3 id=&quot;generate-a-new-ssh&quot;&gt;&lt;a href=&quot;#generate-a-new-ssh&quot; class=&quot;headerlink&quot; title=&quot;generate a new ssh&quot;&gt;&lt;/a&gt;generate a new ssh&lt;/h3&gt;&lt;p&gt;open b
       
     
     </summary>
@@ -111,50 +100,24 @@
   </entry>
   
   <entry>
-    <title>Collection of DNS pollution solutions</title>
-    <link href="https://leviyanx.github.io/2020/06/20/problems/Collection-of-DNS-pollution-solutions/"/>
-    <id>https://leviyanx.github.io/2020/06/20/problems/Collection-of-DNS-pollution-solutions/</id>
-    <published>2020-06-20T06:30:39.000Z</published>
-    <updated>2020-07-14T05:19:05.000Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="GitHub的raw-githubusercontent-com域名解析被污染"><a href="#GitHub的raw-githubusercontent-com域名解析被污染" class="headerlink" title="GitHub的raw.githubusercontent.com域名解析被污染"></a>GitHub的raw.githubusercontent.com域名解析被污染</h3><h4 id="现象"><a href="#现象" class="headerlink" title="现象"></a>现象</h4><p>下载文件的时候出现：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Failed to connect to raw.githubusercontent.com port 443: Connection refused</span><br></pre></td></tr></table></figure><h4 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h4><p>方法一：修改host</p><ol><li>编辑hosts<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo vim /etc/hosts</span><br></pre></td></tr></table></figure></li><li>添加<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">199.232.28.133 raw.githubusercontent.com # 192.232.28.133 是真实ip</span><br></pre></td></tr></table></figure></li></ol><p>方法二：使用SwitchyOmega添加规则（需要代理）</p><h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ul><li><a href="https://www.cnblogs.com/Dylansuns/p/12309847.html" target="_blank" rel="noopener">Failed to connect to raw.githubusercontent.com port 443: Connection refused</a></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;GitHub的raw-githubusercontent-com域名解析被污染&quot;&gt;&lt;a href=&quot;#GitHub的raw-githubusercontent-com域名解析被污染&quot; class=&quot;headerlink&quot; title=&quot;GitHub的raw.git
-      
-    
-    </summary>
-    
-    
-      <category term="problems" scheme="https://leviyanx.github.io/categories/problems/"/>
-    
-    
-      <category term="for own use" scheme="https://leviyanx.github.io/tags/for-own-use/"/>
-    
-      <category term="GFW" scheme="https://leviyanx.github.io/tags/GFW/"/>
-    
-      <category term="network" scheme="https://leviyanx.github.io/tags/network/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Scoop</title>
-    <link href="https://leviyanx.github.io/2020/06/20/tutorials/scoop/"/>
-    <id>https://leviyanx.github.io/2020/06/20/tutorials/scoop/</id>
-    <published>2020-06-20T06:30:39.000Z</published>
-    <updated>2020-06-20T06:30:39.000Z</updated>
+    <link href="https://leviyanx.github.io/2020/07/12/tutorials/scoop/"/>
+    <id>https://leviyanx.github.io/2020/07/12/tutorials/scoop/</id>
+    <published>2020-07-12T06:30:39.000Z</published>
+    <updated>2020-07-14T11:16:16.000Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="Attention"><a href="#Attention" class="headerlink" title="Attention"></a>Attention</h3><p>All commands written in this article need to be run in <code>powershell</code>.</p><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>Download, and installation</p><ul><li><a href="https://davidsheh.github.io/2017/09/09/windows-chocolatey-scoop/" target="_blank" rel="noopener">https://davidsheh.github.io/2017/09/09/windows-chocolatey-scoop/</a></li><li><a href="https://sspai.com/post/52496" target="_blank" rel="noopener">https://sspai.com/post/52496</a></li></ul><p>Usage</p><ul><li><a href="http://www.igiven.com/tool/scoop-use/" target="_blank" rel="noopener">http://www.igiven.com/tool/scoop-use/</a></li><li><a href="https://www.cnblogs.com/hongdada/p/11844277.html" target="_blank" rel="noopener">( Advance )</a></li><li><a href="https://github.com/lukesampson/scoop/wiki" target="_blank" rel="noopener">( Official document )</a></li><li><a href="https://www.h404bi.com/blog/2018/05/talk-about-scoop-the-package-manager-for-windows-again/" target="_blank" rel="noopener">https://www.h404bi.com/blog/2018/05/talk-about-scoop-the-package-manager-for-windows-again/</a></li></ul><h3 id="Basic-requirement"><a href="#Basic-requirement" class="headerlink" title="Basic requirement"></a>Basic requirement</h3><p>安装 Scoop 很简单，不过你需要先确定一些基础环境是否符合安装要求：</p><ul><li>Windows 版本不低于 Windows 7</li><li>Windows 中的 PowerShell 版本不低于 PowerShell 3</li><li>你能 正常、快速 的访问 GitHub 并下载上面的资源</li><li>你的 Windows 用户名为英文（Windows 用户环境变量中路径值不支持中文字符）</li></ul><h3 id="Download-and-installation"><a href="#Download-and-installation" class="headerlink" title="Download and installation"></a>Download and installation</h3><p>如果你不想要自定义路径，跳过 2和4 步。</p><ol><li><p>在 PowerShell 中输入下面内容，保证允许本地脚本的执行：</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">set-executionpolicy</span> remotesigned <span class="literal">-scope</span> currentuser</span><br></pre></td></tr></table></figure></li><li><p>配置scoop的环境变量，设置自己的（当前用户）软件安装路径（我的是’D:\Software\Scoop’），在powershell下运行：</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[<span class="type">environment</span>]::setEnvironmentVariable(<span class="string">'SCOOP'</span>,<span class="string">'D:\Software\Scoop'</span>,<span class="string">'User'</span>)</span><br></pre></td></tr></table></figure></li><li><p>然后执行下面的命令安装 Scoop：</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">iex (<span class="built_in">new-object</span> net.webclient).downloadstring(<span class="string">'https://get.scoop.sh'</span>)</span><br></pre></td></tr></table></figure><p>或者使用脚本 <a href="https://github.com/leviyanx/scoop" target="_blank" rel="noopener">https://github.com/leviyanx/scoop</a></p></li><li><p>配置全局（所有用户）安装路径，在powershell下运行：</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[<span class="type">environment</span>]::setEnvironmentVariable(<span class="string">'SCOOP_GLOBAL'</span>,<span class="string">'D:\Software\ScoopGobalApps'</span>,<span class="string">'Machine'</span>)</span><br></pre></td></tr></table></figure></li><li><p>静待脚本执行完成就可以了，安装成功后，让我们尝试一下：</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scoop help</span><br></pre></td></tr></table></figure></li></ol><h3 id="Accelerate-download"><a href="#Accelerate-download" class="headerlink" title="Accelerate download"></a>Accelerate download</h3><p>没有git的情况下，设置代理+ssr开全局，很快。（再加一个aria2更快）</p><h4 id="Aria2"><a href="#Aria2" class="headerlink" title="Aria2"></a>Aria2</h4><p>Install aria2</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Scoop install aria2</span><br></pre></td></tr></table></figure><p>Disable aira2</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scoop config aria2<span class="literal">-enabled</span> false</span><br></pre></td></tr></table></figure><h4 id="Add-bucket（need-git）"><a href="#Add-bucket（need-git）" class="headerlink" title="Add bucket（need git）"></a>Add bucket（need git）</h4><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scoop bucket add &lt;bucketname&gt;</span><br></pre></td></tr></table></figure><p>Official bucket:</p><ul><li>scoop bucket add extras;</li><li>scoop bucket add Java;</li><li>scoop bucket add versions;</li><li>scoop bucket add Nirsoft</li></ul><p>Third-party bucket:</p><ul><li>scoop bucket add Ash258 ‘<a href="https://github.com/Ash258/scoop-Ash258.git&#39;" target="_blank" rel="noopener">https://github.com/Ash258/scoop-Ash258.git&#39;</a></li><li>scoop bucket add dodorz <a href="https://github.com/dodorz/scoop-bucket" target="_blank" rel="noopener">https://github.com/dodorz/scoop-bucket</a></li><li>scoop bucket add dorado <a href="https://github.com/h404bi/dorado" target="_blank" rel="noopener">https://github.com/h404bi/dorado</a></li></ul><h3 id="Proxy"><a href="#Proxy" class="headerlink" title="Proxy"></a>Proxy</h3><p>仅有代理速度也比没有代理快（没有git，没有添加bucket，没有使用aria2的时候），可能这时候的源用的是国外的。</p><p>Add proxy</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># scoop config proxy ip:port</span></span><br><span class="line">scoop config proxy <span class="number">127.0</span>.<span class="number">0.1</span>:<span class="number">1080</span></span><br></pre></td></tr></table></figure><p>Remove proxy</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scoop config rm proxy</span><br></pre></td></tr></table></figure><h3 id="Basic-software"><a href="#Basic-software" class="headerlink" title="Basic software"></a>Basic software</h3><p>Git</p><h3 id="Problems"><a href="#Problems" class="headerlink" title="Problems"></a>Problems</h3><h4 id="Right-menu-amp-file-association"><a href="#Right-menu-amp-file-association" class="headerlink" title="Right menu &amp; file association"></a>Right menu &amp; file association</h4><p>安装之后一般系统环境变量是设置好了的，但是有些软件的文件关联，右键菜单之类需要手动添加，可以先scoop info ，看看有没有相关配置说明参考。<a href="https://shenbo.github.io/2019/02/23/apps/%E4%BD%BF%E7%94%A8scoop%E5%AE%89%E8%A3%85%E7%AE%A1%E7%90%86windows%E8%BD%AF%E4%BB%B6/" target="_blank" rel="noopener">Reference</a> </p>]]></content>
+    <content type="html"><![CDATA[<h3 id="Attention"><a href="#Attention" class="headerlink" title="Attention"></a>Attention</h3><p>All commands written in this article need to be run in <code>powershell</code>.</p><h3 id="Basic-requirement"><a href="#Basic-requirement" class="headerlink" title="Basic requirement"></a>Basic requirement</h3><p>安装 Scoop 很简单，不过你需要先确定一些基础环境是否符合安装要求：</p><ul><li>Windows 版本不低于 Windows 7</li><li>Windows 中的 PowerShell 版本不低于 PowerShell 3</li><li>你能 正常、快速 的访问 GitHub 并下载上面的资源</li><li>你的 Windows 用户名为英文（Windows 用户环境变量中路径值不支持中文字符）</li></ul><a id="more"></a><h3 id="Download-and-installation"><a href="#Download-and-installation" class="headerlink" title="Download and installation"></a>Download and installation</h3><p>如果你不想要自定义路径，跳过 2和4 步。</p><ol><li><p>在 PowerShell 中输入下面内容，保证允许本地脚本的执行：</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">set-executionpolicy</span> remotesigned <span class="literal">-scope</span> currentuser</span><br></pre></td></tr></table></figure></li><li><p>配置scoop的环境变量，设置自己的（当前用户）软件安装路径（我的是’D:\Software\Scoop’），在powershell下运行：</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[<span class="type">environment</span>]::setEnvironmentVariable(<span class="string">'SCOOP'</span>,<span class="string">'D:\Software\Scoop'</span>,<span class="string">'User'</span>)</span><br></pre></td></tr></table></figure></li><li><p>然后执行下面的命令安装 Scoop：</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">iex (<span class="built_in">new-object</span> net.webclient).downloadstring(<span class="string">'https://get.scoop.sh'</span>)</span><br></pre></td></tr></table></figure><p>或者使用脚本 <a href="https://github.com/leviyanx/scoop" target="_blank" rel="noopener">https://github.com/leviyanx/scoop</a></p></li><li><p>配置全局（所有用户）安装路径，在powershell下运行：</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[<span class="type">environment</span>]::setEnvironmentVariable(<span class="string">'SCOOP_GLOBAL'</span>,<span class="string">'D:\Software\ScoopGobalApps'</span>,<span class="string">'Machine'</span>)</span><br></pre></td></tr></table></figure></li><li><p>静待脚本执行完成就可以了，安装成功后，让我们尝试一下：</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scoop help</span><br></pre></td></tr></table></figure></li></ol><h3 id="Accelerate-download"><a href="#Accelerate-download" class="headerlink" title="Accelerate download"></a>Accelerate download</h3><p>没有git的情况下，设置代理+ssr开全局，很快。（再加一个aria2更快）</p><h4 id="Aria2"><a href="#Aria2" class="headerlink" title="Aria2"></a>Aria2</h4><p>Install aria2</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Scoop install aria2</span><br></pre></td></tr></table></figure><p>Disable aira2</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scoop config aria2<span class="literal">-enabled</span> false</span><br></pre></td></tr></table></figure><h4 id="Add-bucket（need-git）"><a href="#Add-bucket（need-git）" class="headerlink" title="Add bucket（need git）"></a>Add bucket（need git）</h4><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scoop bucket add &lt;bucketname&gt;</span><br></pre></td></tr></table></figure><p>Official bucket:</p><ul><li>scoop bucket add extras;</li><li>scoop bucket add Java;</li><li>scoop bucket add versions;</li><li>scoop bucket add Nirsoft</li></ul><p>Third-party bucket:</p><ul><li>scoop bucket add Ash258 ‘<a href="https://github.com/Ash258/scoop-Ash258.git&#39;" target="_blank" rel="noopener">https://github.com/Ash258/scoop-Ash258.git&#39;</a></li><li>scoop bucket add dodorz <a href="https://github.com/dodorz/scoop-bucket" target="_blank" rel="noopener">https://github.com/dodorz/scoop-bucket</a></li><li>scoop bucket add dorado <a href="https://github.com/h404bi/dorado" target="_blank" rel="noopener">https://github.com/h404bi/dorado</a></li></ul><h3 id="Proxy"><a href="#Proxy" class="headerlink" title="Proxy"></a>Proxy</h3><p>仅有代理速度也比没有代理快（没有git，没有添加bucket，没有使用aria2的时候），可能这时候的源用的是国外的。</p><p>Add proxy</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># scoop config proxy ip:port</span></span><br><span class="line">scoop config proxy <span class="number">127.0</span>.<span class="number">0.1</span>:<span class="number">1080</span></span><br></pre></td></tr></table></figure><p>Remove proxy</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scoop config rm proxy</span><br></pre></td></tr></table></figure><h3 id="Basic-software"><a href="#Basic-software" class="headerlink" title="Basic software"></a>Basic software</h3><p>Git</p><h3 id="Problems"><a href="#Problems" class="headerlink" title="Problems"></a>Problems</h3><h4 id="Right-menu-amp-file-association"><a href="#Right-menu-amp-file-association" class="headerlink" title="Right menu &amp; file association"></a>Right menu &amp; file association</h4><p>安装之后一般系统环境变量是设置好了的，但是有些软件的文件关联，右键菜单之类需要手动添加，可以先scoop info ，看看有没有相关配置说明参考。<a href="https://shenbo.github.io/2019/02/23/apps/%E4%BD%BF%E7%94%A8scoop%E5%AE%89%E8%A3%85%E7%AE%A1%E7%90%86windows%E8%BD%AF%E4%BB%B6/" target="_blank" rel="noopener">Reference</a> </p><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>Download, and installation</p><ul><li><a href="https://davidsheh.github.io/2017/09/09/windows-chocolatey-scoop/" target="_blank" rel="noopener">https://davidsheh.github.io/2017/09/09/windows-chocolatey-scoop/</a></li><li><a href="https://sspai.com/post/52496" target="_blank" rel="noopener">https://sspai.com/post/52496</a></li></ul><p>Usage</p><ul><li><a href="http://www.igiven.com/tool/scoop-use/" target="_blank" rel="noopener">http://www.igiven.com/tool/scoop-use/</a></li><li><a href="https://www.cnblogs.com/hongdada/p/11844277.html" target="_blank" rel="noopener">( Advance )</a></li><li><a href="https://github.com/lukesampson/scoop/wiki" target="_blank" rel="noopener">( Official document )</a></li><li><a href="https://www.h404bi.com/blog/2018/05/talk-about-scoop-the-package-manager-for-windows-again/" target="_blank" rel="noopener">https://www.h404bi.com/blog/2018/05/talk-about-scoop-the-package-manager-for-windows-again/</a></li></ul>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h3 id=&quot;Attention&quot;&gt;&lt;a href=&quot;#Attention&quot; class=&quot;headerlink&quot; title=&quot;Attention&quot;&gt;&lt;/a&gt;Attention&lt;/h3&gt;&lt;p&gt;All commands written in this article need 
-      
+      &lt;h3 id=&quot;Attention&quot;&gt;&lt;a href=&quot;#Attention&quot; class=&quot;headerlink&quot; title=&quot;Attention&quot;&gt;&lt;/a&gt;Attention&lt;/h3&gt;&lt;p&gt;All commands written in this article need to be run in &lt;code&gt;powershell&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;Basic-requirement&quot;&gt;&lt;a href=&quot;#Basic-requirement&quot; class=&quot;headerlink&quot; title=&quot;Basic requirement&quot;&gt;&lt;/a&gt;Basic requirement&lt;/h3&gt;&lt;p&gt;安装 Scoop 很简单，不过你需要先确定一些基础环境是否符合安装要求：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows 版本不低于 Windows 7&lt;/li&gt;
+&lt;li&gt;Windows 中的 PowerShell 版本不低于 PowerShell 3&lt;/li&gt;
+&lt;li&gt;你能 正常、快速 的访问 GitHub 并下载上面的资源&lt;/li&gt;
+&lt;li&gt;你的 Windows 用户名为英文（Windows 用户环境变量中路径值不支持中文字符）&lt;/li&gt;
+&lt;/ul&gt;
     
     </summary>
     
@@ -171,22 +134,52 @@
   </entry>
   
   <entry>
+    <title>Collection of DNS pollution solutions</title>
+    <link href="https://leviyanx.github.io/2020/06/20/problems/Collection-of-DNS-pollution-solutions/"/>
+    <id>https://leviyanx.github.io/2020/06/20/problems/Collection-of-DNS-pollution-solutions/</id>
+    <published>2020-06-20T06:30:39.000Z</published>
+    <updated>2020-07-14T05:19:05.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="GitHub的raw-githubusercontent-com域名解析被污染"><a href="#GitHub的raw-githubusercontent-com域名解析被污染" class="headerlink" title="GitHub的raw.githubusercontent.com域名解析被污染"></a>GitHub的raw.githubusercontent.com域名解析被污染</h3><h4 id="现象"><a href="#现象" class="headerlink" title="现象"></a>现象</h4><p>下载文件的时候出现：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Failed to connect to raw.githubusercontent.com port 443: Connection refused</span><br></pre></td></tr></table></figure><a id="more"></a><h4 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h4><p>方法一：修改host</p><ol><li>编辑hosts<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo vim /etc/hosts</span><br></pre></td></tr></table></figure></li><li>添加<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">199.232.28.133 raw.githubusercontent.com # 192.232.28.133 是真实ip</span><br></pre></td></tr></table></figure></li></ol><p>方法二：使用SwitchyOmega添加规则（需要代理）</p><h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ul><li><a href="https://www.cnblogs.com/Dylansuns/p/12309847.html" target="_blank" rel="noopener">Failed to connect to raw.githubusercontent.com port 443: Connection refused</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;GitHub的raw-githubusercontent-com域名解析被污染&quot;&gt;&lt;a href=&quot;#GitHub的raw-githubusercontent-com域名解析被污染&quot; class=&quot;headerlink&quot; title=&quot;GitHub的raw.githubusercontent.com域名解析被污染&quot;&gt;&lt;/a&gt;GitHub的raw.githubusercontent.com域名解析被污染&lt;/h3&gt;&lt;h4 id=&quot;现象&quot;&gt;&lt;a href=&quot;#现象&quot; class=&quot;headerlink&quot; title=&quot;现象&quot;&gt;&lt;/a&gt;现象&lt;/h4&gt;&lt;p&gt;下载文件的时候出现：&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;Failed to connect to raw.githubusercontent.com port 443: Connection refused&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="problems" scheme="https://leviyanx.github.io/categories/problems/"/>
+    
+    
+      <category term="for own use" scheme="https://leviyanx.github.io/tags/for-own-use/"/>
+    
+      <category term="GFW" scheme="https://leviyanx.github.io/tags/GFW/"/>
+    
+      <category term="network" scheme="https://leviyanx.github.io/tags/network/"/>
+    
+  </entry>
+  
+  <entry>
     <title>搜索引擎的高效使用方法</title>
     <link href="https://leviyanx.github.io/2020/06/19/tutorials/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E7%9A%84%E9%AB%98%E6%95%88%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/"/>
     <id>https://leviyanx.github.io/2020/06/19/tutorials/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E7%9A%84%E9%AB%98%E6%95%88%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</id>
     <published>2020-06-19T07:39:28.000Z</published>
-    <updated>2020-07-12T10:34:30.000Z</updated>
+    <updated>2020-07-14T11:14:50.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="搜索引擎的高效使用方法"><a href="#搜索引擎的高效使用方法" class="headerlink" title="搜索引擎的高效使用方法"></a>搜索引擎的高效使用方法</h1><blockquote><ol><li>以下方法主要适配 <code>百度</code>，在 <code>bing</code> 和 <code>google</code> 上的效果可能会有出入。</li><li>本文没有添加示例图，不够直观，在解决图片存储问题后会添加。</li></ol></blockquote><h4 id="1-排除关键词-减号-关键词"><a href="#1-排除关键词-减号-关键词" class="headerlink" title="1.排除关键词(减号+关键词)"></a>1.排除关键词(减号+关键词)</h4><p>示例：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">三角函数 -公式</span><br></pre></td></tr></table></figure><h4 id="2-精确搜索-给关键词加引号"><a href="#2-精确搜索-给关键词加引号" class="headerlink" title="2. 精确搜索(给关键词加引号)"></a>2. 精确搜索(给关键词加引号)</h4><p>示例：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&quot;三角函数公式&quot;</span><br></pre></td></tr></table></figure><p>注意：引号是英文状态下的引号。</p><h4 id="3-指定网站内搜索-site：域名-关键词"><a href="#3-指定网站内搜索-site：域名-关键词" class="headerlink" title="3. 指定网站内搜索(site：域名 关键词)"></a>3. 指定网站内搜索(site：域名 关键词)</h4><p>示例：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">site:zhihu.com 三角函数</span><br></pre></td></tr></table></figure><p>会只显示知乎内关于三角函数的内容。</p><p><strong>应用场景</strong>：</p><p>可能有人会觉得这个功能没必要，为什么不直接进网站内搜索呢？确实，如果一个网站的搜索功能比较完善，完全没必要用这个功能。但是，的确是有一些网站的搜索功能做的一言难尽，那么在这个网站查资料的话，效率会相当的低下，这个时候就需要用到外部的搜索引擎来提高搜索效率，这就是这个功能的用处。</p><h4 id="4-指定文件格式-filetype：文件格式-关键词"><a href="#4-指定文件格式-filetype：文件格式-关键词" class="headerlink" title="4. 指定文件格式(filetype：文件格式 关键词)"></a>4. 指定文件格式(filetype：文件格式 关键词)</h4><p>示例：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">filetype:pdf 三角函数</span><br></pre></td></tr></table></figure><p>会显示所有与三角函数相关的pdf文件。</p><h4 id="5-指定标题搜索-intitle：关键词"><a href="#5-指定标题搜索-intitle：关键词" class="headerlink" title="5. 指定标题搜索(intitle：关键词)"></a>5. 指定标题搜索(intitle：关键词)</h4><p>示例：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">intitle:三角行数公式</span><br></pre></td></tr></table></figure><h4 id="6"><a href="#6" class="headerlink" title="6"></a>6</h4><h4 id="7-两种指定范围搜索-intext：-allintext：-inurl：关键词"><a href="#7-两种指定范围搜索-intext：-allintext：-inurl：关键词" class="headerlink" title="7. 两种指定范围搜索(intext：/allintext：)(inurl：关键词)"></a>7. 两种指定范围搜索(intext：/allintext：)(inurl：关键词)</h4><h4 id="8-叠加使用"><a href="#8-叠加使用" class="headerlink" title="8. 叠加使用"></a>8. 叠加使用</h4><p>注意事项：</p><blockquote><p>1.所有的冒号都是半角，也就是英文的冒号，而不是中文的冒号<br>2.空格很重要，关键词之间要有空格<br>3.提取关键词很重要(可以提高搜索效率）</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<blockquote><ol><li>以下方法主要适配 <code>百度</code>，在 <code>bing</code> 和 <code>google</code> 上的效果可能会有出入。</li><li>本文没有添加示例图，不够直观，在解决图片存储问题后会添加。</li></ol></blockquote><h4 id="1-排除关键词-减号-关键词"><a href="#1-排除关键词-减号-关键词" class="headerlink" title="1.排除关键词(减号+关键词)"></a>1.排除关键词(减号+关键词)</h4><p>示例：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">三角函数 -公式</span><br></pre></td></tr></table></figure><a id="more"></a><h4 id="2-精确搜索-给关键词加引号"><a href="#2-精确搜索-给关键词加引号" class="headerlink" title="2. 精确搜索(给关键词加引号)"></a>2. 精确搜索(给关键词加引号)</h4><p>示例：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&quot;三角函数公式&quot;</span><br></pre></td></tr></table></figure><p>注意：引号是英文状态下的引号。</p><h4 id="3-指定网站内搜索-site：域名-关键词"><a href="#3-指定网站内搜索-site：域名-关键词" class="headerlink" title="3. 指定网站内搜索(site：域名 关键词)"></a>3. 指定网站内搜索(site：域名 关键词)</h4><p>示例：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">site:zhihu.com 三角函数</span><br></pre></td></tr></table></figure><p>会只显示知乎内关于三角函数的内容。</p><p><strong>应用场景</strong>：</p><p>可能有人会觉得这个功能没必要，为什么不直接进网站内搜索呢？确实，如果一个网站的搜索功能比较完善，完全没必要用这个功能。但是，的确是有一些网站的搜索功能做的一言难尽，那么在这个网站查资料的话，效率会相当的低下，这个时候就需要用到外部的搜索引擎来提高搜索效率，这就是这个功能的用处。</p><h4 id="4-指定文件格式-filetype：文件格式-关键词"><a href="#4-指定文件格式-filetype：文件格式-关键词" class="headerlink" title="4. 指定文件格式(filetype：文件格式 关键词)"></a>4. 指定文件格式(filetype：文件格式 关键词)</h4><p>示例：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">filetype:pdf 三角函数</span><br></pre></td></tr></table></figure><p>会显示所有与三角函数相关的pdf文件。</p><h4 id="5-指定标题搜索-intitle：关键词"><a href="#5-指定标题搜索-intitle：关键词" class="headerlink" title="5. 指定标题搜索(intitle：关键词)"></a>5. 指定标题搜索(intitle：关键词)</h4><p>示例：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">intitle:三角行数公式</span><br></pre></td></tr></table></figure><h4 id="6"><a href="#6" class="headerlink" title="6"></a>6</h4><h4 id="7-两种指定范围搜索-intext：-allintext：-inurl：关键词"><a href="#7-两种指定范围搜索-intext：-allintext：-inurl：关键词" class="headerlink" title="7. 两种指定范围搜索(intext：/allintext：)(inurl：关键词)"></a>7. 两种指定范围搜索(intext：/allintext：)(inurl：关键词)</h4><h4 id="8-叠加使用"><a href="#8-叠加使用" class="headerlink" title="8. 叠加使用"></a>8. 叠加使用</h4><p>注意事项：</p><blockquote><p>1.所有的冒号都是半角，也就是英文的冒号，而不是中文的冒号<br>2.空格很重要，关键词之间要有空格<br>3.提取关键词很重要(可以提高搜索效率）</p></blockquote>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;搜索引擎的高效使用方法&quot;&gt;&lt;a href=&quot;#搜索引擎的高效使用方法&quot; class=&quot;headerlink&quot; title=&quot;搜索引擎的高效使用方法&quot;&gt;&lt;/a&gt;搜索引擎的高效使用方法&lt;/h1&gt;&lt;blockquote&gt;
+      &lt;blockquote&gt;
 &lt;ol&gt;
-&lt;li&gt;以下方法主要适配 &lt;code&gt;
-      
+&lt;li&gt;以下方法主要适配 &lt;code&gt;百度&lt;/code&gt;，在 &lt;code&gt;bing&lt;/code&gt; 和 &lt;code&gt;google&lt;/code&gt; 上的效果可能会有出入。&lt;/li&gt;
+&lt;li&gt;本文没有添加示例图，不够直观，在解决图片存储问题后会添加。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;1-排除关键词-减号-关键词&quot;&gt;&lt;a href=&quot;#1-排除关键词-减号-关键词&quot; class=&quot;headerlink&quot; title=&quot;1.排除关键词(减号+关键词)&quot;&gt;&lt;/a&gt;1.排除关键词(减号+关键词)&lt;/h4&gt;&lt;p&gt;示例：&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;三角函数 -公式&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
@@ -203,20 +196,19 @@
     <link href="https://leviyanx.github.io/2020/06/18/tutorials/chrome/"/>
     <id>https://leviyanx.github.io/2020/06/18/tutorials/chrome/</id>
     <published>2020-06-18T10:03:29.000Z</published>
-    <updated>2020-06-18T10:03:29.000Z</updated>
+    <updated>2020-07-14T11:15:26.000Z</updated>
     
-    <content type="html"><![CDATA[<p>chrome手动更新办法</p><ol><li>进入链接: <u>chrome://sync-internals/</u></li><li>点击 <code>Disable Sync (Clear Data)</code> 按钮</li><li>点击 <code>Request Start</code> 按钮</li><li>等待</li><li>成功的样子如下图，中部有提交记录。<br><img src="https://s1.ax1x.com/2020/06/19/NKJBk9.png" alt="success"></li></ol>]]></content>
+    <content type="html"><![CDATA[<p>chrome手动更新办法</p><ol><li>进入链接: <u>chrome://sync-internals/</u></li><li>点击 <code>Disable Sync (Clear Data)</code> 按钮</li><li>点击 <code>Request Start</code> 按钮</li><li>等待</li></ol><a id="more"></a><ol start="5"><li>成功的样子如下图，中部有提交记录。<br><img src="https://s1.ax1x.com/2020/06/19/NKJBk9.png" alt="success"></li></ol>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;chrome手动更新办法&lt;/p&gt;
+      &lt;p&gt;chrome手动更新办法&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;进入链接: &lt;u&gt;chrome://sync-internals/&lt;/u&gt;&lt;/li&gt;
 &lt;li&gt;点击 &lt;code&gt;Disable Sync (Clear Data)&lt;/code&gt; 按钮&lt;/li&gt;
-&lt;li&gt;点击 &lt;code&gt;R
-      
+&lt;li&gt;点击 &lt;code&gt;Request Start&lt;/code&gt; 按钮&lt;/li&gt;
+&lt;li&gt;等待&lt;/li&gt;
+&lt;/ol&gt;
     
     </summary>
     
@@ -237,13 +229,13 @@
     <published>2020-06-18T09:12:01.000Z</published>
     <updated>2020-07-13T03:30:44.000Z</updated>
     
-    <content type="html"><![CDATA[<p>reference</p><blockquote><p><a href="https://www.cnblogs.com/LyndonMario/p/9326176.html" target="_blank" rel="noopener">chrome神插件之：SwitchyOmega的安装设置</a></p></blockquote><p><code>rule list url</code>: <a href="https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt" target="_blank" rel="noopener">https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Reference</p><blockquote><p><a href="https://www.cnblogs.com/LyndonMario/p/9326176.html" target="_blank" rel="noopener">chrome神插件之：SwitchyOmega的安装设置</a></p></blockquote><p><code>rule list url</code>: <a href="https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt" target="_blank" rel="noopener">https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt</a></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;reference&lt;/p&gt;
+        &lt;p&gt;Reference&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.cnblogs.com/LyndonMario/p/9326176.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;chrome神插件之：Swit
       
@@ -267,19 +259,19 @@
     <link href="https://leviyanx.github.io/2020/06/12/tutorials/useful-tutorial-collection/"/>
     <id>https://leviyanx.github.io/2020/06/12/tutorials/useful-tutorial-collection/</id>
     <published>2020-06-12T15:43:19.000Z</published>
-    <updated>2020-07-13T03:31:18.000Z</updated>
+    <updated>2020-07-14T11:17:00.000Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>这篇文章会持续更新。</p></blockquote><h3 id="script-language"><a href="#script-language" class="headerlink" title="script language"></a>script language</h3><p>vimscript</p><ul><li><a href="http://www.w3cschool.cn/vim/ljkpbozt.html" target="_blank" rel="noopener">笨方法学Vimscript</a></li></ul><p>bash</p><ul><li><a href="https://wangdoc.com/bash/" target="_blank" rel="noopener">Bash 脚本教程-阮一峰</a></li></ul><p>git </p><ul><li><a href="https://www.liaoxuefeng.com/wiki/896043488029600" target="_blank" rel="noopener">git教程-廖雪峰</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>这篇文章会持续更新。</p></blockquote><h3 id="script-language"><a href="#script-language" class="headerlink" title="script language"></a>script language</h3><p>vimscript</p><ul><li><a href="http://www.w3cschool.cn/vim/ljkpbozt.html" target="_blank" rel="noopener">笨方法学Vimscript</a></li></ul><a id="more"></a><p>bash</p><ul><li><a href="https://wangdoc.com/bash/" target="_blank" rel="noopener">Bash 脚本教程-阮一峰</a></li></ul><p>git </p><ul><li><a href="https://www.liaoxuefeng.com/wiki/896043488029600" target="_blank" rel="noopener">git教程-廖雪峰</a></li></ul>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;blockquote&gt;
+      &lt;blockquote&gt;
 &lt;p&gt;这篇文章会持续更新。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h3 id=&quot;script-language&quot;&gt;&lt;a href=&quot;#script-language&quot; class=&quot;headerlink&quot; title=&quot;script language&quot;&gt;
-      
+&lt;h3 id=&quot;script-language&quot;&gt;&lt;a href=&quot;#script-language&quot; class=&quot;headerlink&quot; title=&quot;script language&quot;&gt;&lt;/a&gt;script language&lt;/h3&gt;&lt;p&gt;vimscript&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.w3cschool.cn/vim/ljkpbozt.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;笨方法学Vimscript&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
     
     </summary>
     
@@ -296,19 +288,18 @@
     <link href="https://leviyanx.github.io/2020/06/12/tutorials/rime/"/>
     <id>https://leviyanx.github.io/2020/06/12/tutorials/rime/</id>
     <published>2020-06-12T15:38:33.000Z</published>
-    <updated>2020-07-13T03:29:50.000Z</updated>
+    <updated>2020-07-14T11:16:00.000Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>Warning: 这篇文章还没有被完成，会有错误。</p></blockquote><h3 id="同步"><a href="#同步" class="headerlink" title="同步"></a>同步</h3><p><strong>说明</strong></p><p><code>sync</code>内放几个系统的rime同步文件夹（其中包含了各自的 <code>userdb.txt</code>）。同步后，会把其他 <code>userdb.txt</code>的数据同步到当前系统的同步文件夹内的 <code>userdb.txt</code>中；此外，用户文件夹内的 用户数据也会被更新。但是，<strong>用户配置不会被更新</strong>。</p><p>即，用户数据同步是双向的，用户配置是单项的。</p><hr><p>schema可以直接放到用户文件夹，不用放到程序所在文件夹。</p><hr><h3 id="时间辅助功能"><a href="#时间辅助功能" class="headerlink" title="时间辅助功能"></a>时间辅助功能</h3><h4 id="PC端"><a href="#PC端" class="headerlink" title="PC端"></a>PC端</h4><ol><li>使用date.lua实现，把<code>date.lua</code>文件放到用户文件夹下。</li><li>在 double_pinyin.scheme.yaml（你用的那个输入法）中添加以下内容。（一定要在scheme中添加，不是custom！这个坑了我2个小时，专门记录一下）<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">engine:</span></span><br><span class="line">  <span class="attr">translators:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">lua_translator@date_translator</span> <span class="comment"># 这部分是添加的内容</span></span><br></pre></td></tr></table></figure></li></ol><h4 id="移动端（同文输入法）"><a href="#移动端（同文输入法）" class="headerlink" title="移动端（同文输入法）"></a>移动端（同文输入法）</h4><blockquote><p>一键输出「日期+时间」<br>以预设26键键盘为例：</p></blockquote><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># trime.custom.yaml</span></span><br><span class="line"><span class="attr">patch:</span></span><br><span class="line"><span class="comment"># 参考trime.yaml内置的date键，新建一个按键date_time</span></span><br><span class="line">  <span class="attr">"preset_keys/date_time":</span></span><br><span class="line">    <span class="attr">command:</span> <span class="string">date</span></span><br><span class="line">    <span class="attr">label:</span> <span class="string">time</span></span><br><span class="line">    <span class="attr">option:</span> <span class="string">"yyyy-MM-dd HH:mm:ss"</span> <span class="comment">#通过`option`参数控制输出的日期和时间格式</span></span><br><span class="line">    <span class="attr">send:</span> <span class="string">function</span></span><br><span class="line">    </span><br><span class="line">  <span class="comment"># 用data_time替换原预设26键键盘中的time</span></span><br><span class="line">  <span class="string">"preset_keyboards/qwerty/keys/@26/long_click"</span><span class="string">:</span> <span class="string">date_tim</span></span><br></pre></td></tr></table></figure><p>※ 常用的时间选项： y 年， M 月， d 日， h 时（12小时制）， H 时（24小时制）， m 分， s 秒， S 毫秒， E 星期， D 一年中的第几天， w 一年<br>中第几个星期， a 上午/下午， z 时区</p>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>Warning: 这篇文章还没有被完成，会有错误。</p></blockquote><h3 id="同步"><a href="#同步" class="headerlink" title="同步"></a>同步</h3><p><strong>说明</strong></p><p><code>sync</code>内放几个系统的rime同步文件夹（其中包含了各自的 <code>userdb.txt</code>）。同步后，会把其他 <code>userdb.txt</code>的数据同步到当前系统的同步文件夹内的 <code>userdb.txt</code>中；此外，用户文件夹内的 用户数据也会被更新。但是，<strong>用户配置不会被更新</strong>。</p><p>即，用户数据同步是双向的，用户配置是单项的。</p><a id="more"></a><hr><p>schema可以直接放到用户文件夹，不用放到程序所在文件夹。</p><hr><h3 id="时间辅助功能"><a href="#时间辅助功能" class="headerlink" title="时间辅助功能"></a>时间辅助功能</h3><h4 id="PC端"><a href="#PC端" class="headerlink" title="PC端"></a>PC端</h4><ol><li>使用date.lua实现，把<code>date.lua</code>文件放到用户文件夹下。</li><li>在 double_pinyin.scheme.yaml（你用的那个输入法）中添加以下内容。（一定要在scheme中添加，不是custom！这个坑了我2个小时，专门记录一下）<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">engine:</span></span><br><span class="line">  <span class="attr">translators:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">lua_translator@date_translator</span> <span class="comment"># 这部分是添加的内容</span></span><br></pre></td></tr></table></figure></li></ol><h4 id="移动端（同文输入法）"><a href="#移动端（同文输入法）" class="headerlink" title="移动端（同文输入法）"></a>移动端（同文输入法）</h4><blockquote><p>一键输出「日期+时间」<br>以预设26键键盘为例：</p></blockquote><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># trime.custom.yaml</span></span><br><span class="line"><span class="attr">patch:</span></span><br><span class="line"><span class="comment"># 参考trime.yaml内置的date键，新建一个按键date_time</span></span><br><span class="line">  <span class="attr">"preset_keys/date_time":</span></span><br><span class="line">    <span class="attr">command:</span> <span class="string">date</span></span><br><span class="line">    <span class="attr">label:</span> <span class="string">time</span></span><br><span class="line">    <span class="attr">option:</span> <span class="string">"yyyy-MM-dd HH:mm:ss"</span> <span class="comment">#通过`option`参数控制输出的日期和时间格式</span></span><br><span class="line">    <span class="attr">send:</span> <span class="string">function</span></span><br><span class="line">    </span><br><span class="line">  <span class="comment"># 用data_time替换原预设26键键盘中的time</span></span><br><span class="line">  <span class="string">"preset_keyboards/qwerty/keys/@26/long_click"</span><span class="string">:</span> <span class="string">date_tim</span></span><br></pre></td></tr></table></figure><p>※ 常用的时间选项： y 年， M 月， d 日， h 时（12小时制）， H 时（24小时制）， m 分， s 秒， S 毫秒， E 星期， D 一年中的第几天， w 一年<br>中第几个星期， a 上午/下午， z 时区</p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;blockquote&gt;
+      &lt;blockquote&gt;
 &lt;p&gt;Warning: 这篇文章还没有被完成，会有错误。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h3 id=&quot;同步&quot;&gt;&lt;a href=&quot;#同步&quot; class=&quot;headerlink&quot; title=&quot;同步&quot;&gt;&lt;/a&gt;同步&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;说明
-      
+&lt;h3 id=&quot;同步&quot;&gt;&lt;a href=&quot;#同步&quot; class=&quot;headerlink&quot; title=&quot;同步&quot;&gt;&lt;/a&gt;同步&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;说明&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sync&lt;/code&gt;内放几个系统的rime同步文件夹（其中包含了各自的 &lt;code&gt;userdb.txt&lt;/code&gt;）。同步后，会把其他 &lt;code&gt;userdb.txt&lt;/code&gt;的数据同步到当前系统的同步文件夹内的 &lt;code&gt;userdb.txt&lt;/code&gt;中；此外，用户文件夹内的 用户数据也会被更新。但是，&lt;strong&gt;用户配置不会被更新&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;即，用户数据同步是双向的，用户配置是单项的。&lt;/p&gt;
     
     </summary>
     
@@ -381,20 +372,16 @@
     <link href="https://leviyanx.github.io/2020/04/06/problems/archlinux%20%E8%A7%A3%E5%86%B3wine%E7%B3%BB%E5%BA%94%E7%94%A8%EF%BC%88%E5%A6%82tim%E3%80%81wps%EF%BC%89%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8fcitx%E8%BE%93%E5%85%A5%E4%B8%AD%E6%96%87%E7%9A%84%E9%97%AE%E9%A2%98/"/>
     <id>https://leviyanx.github.io/2020/04/06/problems/archlinux%20%E8%A7%A3%E5%86%B3wine%E7%B3%BB%E5%BA%94%E7%94%A8%EF%BC%88%E5%A6%82tim%E3%80%81wps%EF%BC%89%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8fcitx%E8%BE%93%E5%85%A5%E4%B8%AD%E6%96%87%E7%9A%84%E9%97%AE%E9%A2%98/</id>
     <published>2020-04-06T02:35:21.000Z</published>
-    <updated>2020-06-21T02:35:21.000Z</updated>
+    <updated>2020-07-14T11:15:09.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="我的系统"><a href="#我的系统" class="headerlink" title="我的系统"></a>我的系统</h2><ul><li>archlinxu</li><li>i3wm</li></ul><h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p>在应用程序对应的<strong>启动文件</strong>中加入以下代码</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">export XMODIFIERS&#x3D;&quot;@im&#x3D;fcitx&quot;</span><br><span class="line"></span><br><span class="line">export GTK_IM_MODULE&#x3D;&quot;fcitx&quot;</span><br><span class="line"></span><br><span class="line">export QT_IM_MODULE&#x3D;&quot;fcitx&quot;</span><br></pre></td></tr></table></figure><p><strong>已解决应用：deepin-tim（deepin.com.qq.office）、wps</strong>（因为我就用了这两个，但方法是通用的）</p><h3 id="如何找到应用对应的启动文件呢？"><a href="#如何找到应用对应的启动文件呢？" class="headerlink" title="如何找到应用对应的启动文件呢？"></a>如何找到应用对应的启动文件呢？</h3><h4 id="方法一（如果你的文件管理器是-pcmancf）"><a href="#方法一（如果你的文件管理器是-pcmancf）" class="headerlink" title="方法一（如果你的文件管理器是 pcmancf）"></a>方法一（如果你的文件管理器是 pcmancf）</h4><p>打开 <code>pcmancf</code>，进入 <code>Applications</code> 那一栏，找到对应的应用程序图标，右击查看属性。<code>Desktop Entry</code> 中 <code>command</code> 那一栏就有启动文件的位置。</p><h4 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h4><p>进入路径 <code>/usr/share/applications/</code>，找到你想要修改的应用程序对应的 <code>.desktop</code> 文件（以tim举例，就是找到 <code>deepin.com.qq.office.desktop</code> 文件）。</p><p>查看文件，其中 <code>Exec</code> 一行就是文件位置（比如tim： <code>Exec=&quot;/opt/deepinwine/apps/Deepin-TIM/run.sh&quot; -u %u</code>，那么启动文件就是 <code>/opt/deepinwine/apps/Deepin-TIM/run.sh</code>，修改它就行了）。</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="我的系统"><a href="#我的系统" class="headerlink" title="我的系统"></a>我的系统</h2><ul><li>archlinxu</li><li>i3wm</li></ul><a id="more"></a><h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p>在应用程序对应的<strong>启动文件</strong>中加入以下代码</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">export XMODIFIERS&#x3D;&quot;@im&#x3D;fcitx&quot;</span><br><span class="line"></span><br><span class="line">export GTK_IM_MODULE&#x3D;&quot;fcitx&quot;</span><br><span class="line"></span><br><span class="line">export QT_IM_MODULE&#x3D;&quot;fcitx&quot;</span><br></pre></td></tr></table></figure><p><strong>已解决应用：deepin-tim（deepin.com.qq.office）、wps</strong>（因为我就用了这两个，但方法是通用的）</p><h3 id="如何找到应用对应的启动文件呢？"><a href="#如何找到应用对应的启动文件呢？" class="headerlink" title="如何找到应用对应的启动文件呢？"></a>如何找到应用对应的启动文件呢？</h3><h4 id="方法一（如果你的文件管理器是-pcmancf）"><a href="#方法一（如果你的文件管理器是-pcmancf）" class="headerlink" title="方法一（如果你的文件管理器是 pcmancf）"></a>方法一（如果你的文件管理器是 pcmancf）</h4><p>打开 <code>pcmancf</code>，进入 <code>Applications</code> 那一栏，找到对应的应用程序图标，右击查看属性。<code>Desktop Entry</code> 中 <code>command</code> 那一栏就有启动文件的位置。</p><h4 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h4><p>进入路径 <code>/usr/share/applications/</code>，找到你想要修改的应用程序对应的 <code>.desktop</code> 文件（以tim举例，就是找到 <code>deepin.com.qq.office.desktop</code> 文件）。</p><p>查看文件，其中 <code>Exec</code> 一行就是文件位置（比如tim： <code>Exec=&quot;/opt/deepinwine/apps/Deepin-TIM/run.sh&quot; -u %u</code>，那么启动文件就是 <code>/opt/deepinwine/apps/Deepin-TIM/run.sh</code>，修改它就行了）。</p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h2 id=&quot;我的系统&quot;&gt;&lt;a href=&quot;#我的系统&quot; class=&quot;headerlink&quot; title=&quot;我的系统&quot;&gt;&lt;/a&gt;我的系统&lt;/h2&gt;&lt;ul&gt;
+      &lt;h2 id=&quot;我的系统&quot;&gt;&lt;a href=&quot;#我的系统&quot; class=&quot;headerlink&quot; title=&quot;我的系统&quot;&gt;&lt;/a&gt;我的系统&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;archlinxu&lt;/li&gt;
 &lt;li&gt;i3wm&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;解决方法&quot;&gt;&lt;a href
-      
     
     </summary>
     
