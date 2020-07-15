@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://leviyanx.github.io/"/>
-  <updated>2020-07-15T00:42:18.000Z</updated>
+  <updated>2020-07-15T09:15:55.000Z</updated>
   <id>https://leviyanx.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Basic knowledge</title>
+    <link href="https://leviyanx.github.io/2020/07/15/advanced-maths/basic-knowledge/"/>
+    <id>https://leviyanx.github.io/2020/07/15/advanced-maths/basic-knowledge/</id>
+    <published>2020-07-15T09:15:55.000Z</published>
+    <updated>2020-07-15T09:15:55.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>本文资源仅为自用，可以查看，但请勿传播。</p><p>Resource</p><ul><li><a href="https://kdocs.cn/l/c9I2ZkLDD" target="_blank" rel="noopener">高中基础知识【BY猕猴桃学长】.pdf</a></li></ul><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;本文资源仅为自用，可以查看，但请勿传播。&lt;/p&gt;
+&lt;p&gt;Resource&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://kdocs.cn/l/c9I2ZkLDD&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;高中基础知识【BY猕猴桃学长】.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+    
+      <category term="advanced-maths" scheme="https://leviyanx.github.io/categories/advanced-maths/"/>
+    
+    
+      <category term="for own use" scheme="https://leviyanx.github.io/tags/for-own-use/"/>
+    
+      <category term="need to remember" scheme="https://leviyanx.github.io/tags/need-to-remember/"/>
+    
+  </entry>
   
   <entry>
     <title>VSCode usage</title>
