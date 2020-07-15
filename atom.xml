@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://leviyanx.github.io/"/>
-  <updated>2020-07-14T14:57:56.000Z</updated>
+  <updated>2020-07-15T00:42:18.000Z</updated>
   <id>https://leviyanx.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>VSCode usage</title>
+    <link href="https://leviyanx.github.io/2020/07/15/tutorials/vscode-usage/"/>
+    <id>https://leviyanx.github.io/2020/07/15/tutorials/vscode-usage/</id>
+    <published>2020-07-15T00:42:18.000Z</published>
+    <updated>2020-07-15T00:42:18.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Problems"><a href="#Problems" class="headerlink" title="Problems"></a>Problems</h2><h3 id="Markdown-snippet-prefix-does-not-trigger-sinppet"><a href="#Markdown-snippet-prefix-does-not-trigger-sinppet" class="headerlink" title="Markdown snippet prefix does not trigger sinppet"></a>Markdown snippet prefix does not trigger sinppet</h3><a id="more"></a><p>Cause Quick Suggestion are disabled by default in markdown files. Enable it in <code>settings.json</code>:</p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">"[markdown]": &#123;</span><br><span class="line">    "editor.wordWrap": "on",</span><br><span class="line">    "editor.quickSuggestions": true</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure><p>Reference</p><ul><li><a href="https://github.com/Microsoft/vscode/issues/28048" target="_blank" rel="noopener">Markdown Snippet Prefix Does Not Trigger Snippet #28048</a></li></ul><h3 id="How-to-use-clipboard-for-Vim-in-VSCode"><a href="#How-to-use-clipboard-for-Vim-in-VSCode" class="headerlink" title="How to use clipboard for Vim in VSCode"></a>How to use clipboard for Vim in VSCode</h3><p>This feature is available in the Vim extension, but turned off by default.</p><p>To turn on this feature, set the <code>vim.useSystemClipboard</code> setting to <code>true</code>. You may need to restart VSCode for it to take effect.</p><p>Reference</p><ul><li><a href="https://codeyarns.com/2018/04/26/how-to-use-clipboard-for-vim-in-vscode/" target="_blank" rel="noopener">How to use clipboard for Vim in VSCode</a></li></ul><h3 id="How-to-sync-your-settings"><a href="#How-to-sync-your-settings" class="headerlink" title="How to sync your settings"></a>How to sync your settings</h3><p>Reference</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Problems&quot;&gt;&lt;a href=&quot;#Problems&quot; class=&quot;headerlink&quot; title=&quot;Problems&quot;&gt;&lt;/a&gt;Problems&lt;/h2&gt;&lt;h3 id=&quot;Markdown-snippet-prefix-does-not-trigger-sinppet&quot;&gt;&lt;a href=&quot;#Markdown-snippet-prefix-does-not-trigger-sinppet&quot; class=&quot;headerlink&quot; title=&quot;Markdown snippet prefix does not trigger sinppet&quot;&gt;&lt;/a&gt;Markdown snippet prefix does not trigger sinppet&lt;/h3&gt;
+    
+    </summary>
+    
+    
+      <category term="tutorials" scheme="https://leviyanx.github.io/categories/tutorials/"/>
+    
+    
+      <category term="for own use" scheme="https://leviyanx.github.io/tags/for-own-use/"/>
+    
+      <category term="nice tool" scheme="https://leviyanx.github.io/tags/nice-tool/"/>
+    
+  </entry>
   
   <entry>
     <title>hard vocabulary</title>
