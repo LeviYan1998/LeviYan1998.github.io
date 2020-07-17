@@ -215,7 +215,40 @@
 <td>$R_n(x)=\frac{\alpha (\alpha-1)…(\alpha-n)}{(n+1)!}(1+\theta x)^{\alpha-n-1}\cdot x^{n+1}$</td>
 </tr>
 </tbody></table>
-<h3 id="泰勒公式（待更）"><a href="#泰勒公式（待更）" class="headerlink" title="泰勒公式（待更）"></a>泰勒公式（待更）</h3><p>p68</p>
+<h3 id="泰勒公式（一栏）"><a href="#泰勒公式（一栏）" class="headerlink" title="泰勒公式（一栏）"></a>泰勒公式（一栏）</h3><table>
+<thead>
+<tr>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>$sinx=x-\frac{1}{6}x^3+o(x^3)$</td>
+</tr>
+<tr>
+<td>$arcsinx=x+\frac{1}{6}x^3+o(x^3)$</td>
+</tr>
+<tr>
+<td>$tanx=x+\frac{1}{3}x^3+o(x^3)$</td>
+</tr>
+<tr>
+<td>$arctanx=x-\frac{1}{3}x^3+o(x^3)$</td>
+</tr>
+<tr>
+<td>—</td>
+</tr>
+<tr>
+<td>$cosx=1-\frac{1}{2}x^2+\frac{1}{24}x^4+o(x^4)$</td>
+</tr>
+<tr>
+<td>$ln(1+x)=x-\frac{1}{2}x^2+\frac{1}{3}x^3+o(x^3)$</td>
+</tr>
+<tr>
+<td>$e^x=1+x+\frac{x^2}{2}+\frac{1}{6}x^3+o(x^3)$</td>
+</tr>
+<tr>
+<td>$(1+x)^\alpha =1+\alpha x+\frac{\alpha (\alpha-1)}{2}x^2+o(x^2)$</td>
+</tr>
+</tbody></table>
 <h3 id="不定积分公式（两栏）"><a href="#不定积分公式（两栏）" class="headerlink" title="不定积分公式（两栏）"></a>不定积分公式（两栏）</h3><table>
 <thead>
 <tr>
