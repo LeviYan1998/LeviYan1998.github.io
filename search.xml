@@ -285,8 +285,8 @@
 <td>$\int csc^2x=-cotx+C$</td>
 </tr>
 <tr>
-<td>$\int \sec x\cdot tanxdx=tanx+C$</td>
-<td>$\int cscx\cdot cotxdx=-cotx+C$</td>
+<td>$\int \sec x\cdot tanxdx=secx+C$</td>
+<td>$\int cscx\cdot cotxdx=-cscx+C$</td>
 </tr>
 <tr>
 <td><strong>③</strong></td>
@@ -330,7 +330,8 @@
 </tr>
 </tbody></table>
 <h3 id="定积分计算工具（待更）"><a href="#定积分计算工具（待更）" class="headerlink" title="定积分计算工具（待更）"></a>定积分计算工具（待更）</h3><p>p121</p>
-<h3 id="反常积分六个重要尺度（待更）"><a href="#反常积分六个重要尺度（待更）" class="headerlink" title="反常积分六个重要尺度（待更）"></a>反常积分六个重要尺度（待更）</h3><table>
+<h3 id="反常积分六个重要尺度（待更）"><a href="#反常积分六个重要尺度（待更）" class="headerlink" title="反常积分六个重要尺度（待更）"></a>反常积分六个重要尺度（待更）</h3><p><img src="/home/leviyan/Project/.myProjects/leivyanx.github.io/source/_posts/advanced-maths/images/%E5%8F%8D%E5%B8%B8%E7%A7%AF%E5%88%86%E5%85%AD%E4%B8%AA%E9%87%8D%E8%A6%81%E5%B0%BA%E5%BA%A6.png" alt="反常积分六个重要尺度"></p>
+<table>
 <thead>
 <tr>
 <th></th>
@@ -339,27 +340,15 @@
 </thead>
 <tbody><tr>
 <td>$$\int_{1}^{+\infty} \frac{1}{x^p}dx=\left{\begin{array} \    p &gt; 1，收敛 \    p \leq 1，发散    \end{array}\right.$$</td>
-<td></td>
+<td>$$\int_{0}^{1} \frac{1}{x^p}dx=\left{\begin{array} \    p &lt; 1，收敛 \    p \geq 1，发散    \end{array}\right.$$</td>
 </tr>
 <tr>
-<td>③ $$\int_{1}^{+\infty} \frac{lnx}{x^p}dx=\left{\begin{array} \        p &gt; 1，收敛 \    p \leq 1，发散    \end{array}\right.$$</td>
-<td></td>
+<td>$$\int_{1}^{+\infty} \frac{lnx}{x^p}dx=\left{\begin{array} \        p &gt; 1，收敛 \    p \leq 1，发散    \end{array}\right.$$</td>
+<td>$$\int_{0}^{1} \frac{lnx}{x^p}dx=\left{\begin{array} \    p &lt; 1，收敛 \    p \geq 1，发散    \end{array}\right.$$</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
+<td>$$\int_{e}^{+\infty} \frac{1}{x(lnx)^p}dx=\left{\begin{array} \    p &gt; 1，收敛 \    p \leq 1，发散    \end{array}\right.$$</td>
+<td>$$\int_{1}^{2} \frac{1}{x(lnx)^p}dx=\left{\begin{array} \    p &lt; 1，收敛 \    p \geq 1，发散    \end{array}\right.$$</td>
 </tr>
 </tbody></table>
 <p><a href="p130"></a></p>
